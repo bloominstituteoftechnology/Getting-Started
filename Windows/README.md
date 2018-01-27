@@ -47,18 +47,42 @@
 # Integrating Git Bash into Atom & VSC IDE
 ### VSC
 - Setting up VSC to use Git Bash on Windows
-  - https://code.visualstudio.com/docs/editor/integrated-terminal
-  - hacky workaround to have both bash and Powershell available in the VSC terminal selector: http://jeffa.tech/vscode-multiple-integrated-terminals/
-  - `ctrl + comma` will load your user settings in VSC
-  ```js
-  // Place your settings in this file to overwrite the default settings
-  {
-      // Git Bash
-      "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-      // PowerShell
-      "terminal.integrated.shell.windows2": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
-  }
-  ```
+- https://code.visualstudio.com/docs/editor/integrated-terminal
+NOTE: maybe overkill to set it up with both? maybe worth documenting and hiding?
+
+<details><summary>Expand if you want BOTH bash and PowerShell available in VSC</summary><p>
+
+- hacky workaround to have both bash and Powershell available in the VSC terminal selector: http://jeffa.tech/vscode-multiple-integrated-terminals/
+1. `ctrl + comma` will load your user settings in VSC
+2. Modify your User Settings:
+```js
+// Place your settings in this file to overwrite the default settings
+{
+    // Git Bash
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    // PowerShell
+    "terminal.integrated.shell.windows2": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+}
+```
+
+3. ``ctrl + tilda/backtick (~/`)`` to open editor. It should say `1. bash`
+4. add the `2` t the end of the bash key and remove it from the powershell key, like so:
+```js
+// Place your settings in this file to overwrite the default settings
+{
+    // Git Bash
+    "terminal.integrated.shell.windows2": "C:\\Program Files\\Git\\bin\\bash.exe",
+    // PowerShell
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+}
+
+```
+
+5. now press the plus sign to create a new terminal. It should say `2. powershell`
+6. now swap the `2` back to how it looked in step 2.
+7. Now any new consoles you create will be bash, but you'll have a persistent option 1 & 2.
+
+</p></details>
 
 ### Atom
 - Setting up Atom with an integrated console: https://atom.io/packages/platformio-ide-terminal (PShell default)
@@ -73,4 +97,4 @@
 - Setting up Atom for Git Bash integrated console: https://forum.freecodecamp.org/t/bash-on-ubuntu-on-windows-on-atom/44948
 - NOTE: article says to set to: `C:\\Windows\\sysnative\\bash.exe`
 - but I set to: `C:\Program Files\Git\usr\bin\bash.exe` for it to work.
-- if neither work, in Git Bash console, ascertain `$ which bash` and use the Windows syntax C:\path to bash.exe. 
+- if neither work, in Git Bash console, ascertain `$ which bash` and use the Windows syntax C:\path to bash.exe.
