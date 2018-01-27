@@ -27,6 +27,7 @@
 - Piazza
 - Repl.it
 - CodePen
+- LinkedIn
 
 # Speedy Win10 tricks
 - Cortana, motherfucker!

@@ -27,6 +27,7 @@
 - Piazza
 - Repl.it
 - CodePen
+- - LinkedIn
 
 # Speedy macOS tricks
 - `⌘ + spacebar` for the Spotlight Search.
