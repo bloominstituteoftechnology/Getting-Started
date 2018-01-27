@@ -8,7 +8,7 @@
 7. Download Text Editor (Atom, VSC, Sublime(nagware), Brackets).
 8. Install Xcode CLI tools <<< may not be necessary?
 9. Download Zoom
-10. Downlad the Slack.app
+10. Download the Slack.app
 
 # other things?
 - Homebrew
