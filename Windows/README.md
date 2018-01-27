@@ -44,6 +44,7 @@
 - Setting up VSC to use Git Bash on Windows
   - https://code.visualstudio.com/docs/editor/integrated-terminal
   - hacky workaround to have both bash and Powershell available in the VSC terminal selector: http://jeffa.tech/vscode-multiple-integrated-terminals/
+  - `ctrl + comma` will load your user settings in VSC
   ```js
   // Place your settings in this file to overwrite the default settings
   {
