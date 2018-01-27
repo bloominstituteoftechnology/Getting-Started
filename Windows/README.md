@@ -41,5 +41,7 @@
 - ctrl+option+ left right arrow to cycle through open tabs???
 
 # Text Editor efficiency
+- Setting up Text Editor to use git bash on Windows
+  - https://code.visualstudio.com/docs/editor/integrated-terminal
 - Global project search: ctrl-shift-f VSC, cmd+shift+f Atom???
 - Select matching pattern: cmd/ctrl+D Atom/VSC???
