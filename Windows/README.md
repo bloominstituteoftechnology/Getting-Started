@@ -6,6 +6,9 @@
 5. Download Git Bash.
 6. Download Node.
 7. Download Text Editor (Atom, VSC, vim (comes w/git bash iirc), Sublime(nagware), Brackets)
+8. Download Zoom
+9. Downlad the Slack.app
+
 
 # other things?
 - Homebrew
