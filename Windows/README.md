@@ -7,7 +7,7 @@
 6. Download Node.
 7. Download Text Editor (Atom, VSC, vim (comes w/git bash iirc), Sublime(nagware), Brackets)
 8. Download Zoom
-9. Downlad the Slack.app
+9. Download the Slack.app
 
 
 # other things?
@@ -41,9 +41,20 @@
 - ctrl+option+ left right arrow to cycle through open tabs???
 
 # Text Editor efficiency
-- Setting up VSC to use git bash on Windows
+- Setting up VSC to use Git Bash on Windows
   - https://code.visualstudio.com/docs/editor/integrated-terminal
   - hacky workaround to have both bash and Powershell available in the VSC terminal selector: http://jeffa.tech/vscode-multiple-integrated-terminals/
-- Setting up Atom with an integrated console: https://atom.io/packages/platformio-ide-terminal (PShell only)
+  ```json
+  // Place your settings in this file to overwrite the default settings
+  {
+      // Git Bash
+      "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+      // PowerShell
+      "terminal.integrated.shell.windows2": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+  }
+  ```
+- Setting up Atom with an integrated console: https://atom.io/packages/platformio-ide-terminal (PShell default)
+  - Setting up Atom for Git Bash integrated console: https://forum.freecodecamp.org/t/bash-on-ubuntu-on-windows-on-atom/44948
+  - `C:\\Windows\\sysnative\\bash.exe`
 - Global project search: ctrl-shift-f VSC, cmd+shift+f Atom???
-- Select matching pattern: cmd/ctrl+D Atom/VSC???
+- Select matching pattern: cmd(macOS)/ctrl(Win)+D Atom/VSC???
