@@ -41,7 +41,9 @@
 - ctrl+option+ left right arrow to cycle through open tabs???
 
 # Text Editor efficiency
-- Setting up Text Editor to use git bash on Windows
+- Setting up VSC to use git bash on Windows
   - https://code.visualstudio.com/docs/editor/integrated-terminal
+  - hacky workaround to have both bash and Powershell available in the VSC terminal selector: http://jeffa.tech/vscode-multiple-integrated-terminals/
+- Setting up Atom with an integrated console: https://atom.io/packages/platformio-ide-terminal (PShell only)
 - Global project search: ctrl-shift-f VSC, cmd+shift+f Atom???
 - Select matching pattern: cmd/ctrl+D Atom/VSC???
