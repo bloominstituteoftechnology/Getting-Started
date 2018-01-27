@@ -55,6 +55,7 @@
   ```
 - Setting up Atom with an integrated console: https://atom.io/packages/platformio-ide-terminal (PShell default)
   - Setting up Atom for Git Bash integrated console: https://forum.freecodecamp.org/t/bash-on-ubuntu-on-windows-on-atom/44948
-  - `C:\\Windows\\sysnative\\bash.exe`
+  - Article says to set to: `C:\\Windows\\sysnative\\bash.exe`
+  - but I set to: `C:\Program Files\Git\usr\bin\bash.exe` for it to work.
 - Global project search: ctrl-shift-f VSC, cmd+shift+f Atom???
 - Select matching pattern: cmd(macOS)/ctrl(Win)+D Atom/VSC???
