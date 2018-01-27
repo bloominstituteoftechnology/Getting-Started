@@ -41,6 +41,11 @@
 - ctrl+option+ left right arrow to cycle through open tabs???
 
 # Text Editor efficiency
+- Global project search: ctrl-shift-f VSC, cmd+shift+f Atom???
+- Select matching pattern: cmd(macOS)/ctrl(Win)+D Atom/VSC???
+
+# Integrating Git Bash into Atom & VSC IDE
+### VSC
 - Setting up VSC to use Git Bash on Windows
   - https://code.visualstudio.com/docs/editor/integrated-terminal
   - hacky workaround to have both bash and Powershell available in the VSC terminal selector: http://jeffa.tech/vscode-multiple-integrated-terminals/
@@ -54,9 +59,18 @@
       "terminal.integrated.shell.windows2": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
   }
   ```
+
+### Atom
 - Setting up Atom with an integrated console: https://atom.io/packages/platformio-ide-terminal (PShell default)
-  - Setting up Atom for Git Bash integrated console: https://forum.freecodecamp.org/t/bash-on-ubuntu-on-windows-on-atom/44948
-  - Article says to set to: `C:\\Windows\\sysnative\\bash.exe`
-  - but I set to: `C:\Program Files\Git\usr\bin\bash.exe` for it to work.
-- Global project search: ctrl-shift-f VSC, cmd+shift+f Atom???
-- Select matching pattern: cmd(macOS)/ctrl(Win)+D Atom/VSC???
+1. ctrl+, for settings
+2. select Install
+3. type in platformio-ide-terminal
+4. Install
+5. ``ctrl + tilda/backtick (~/`)`` to launch a new terminal in Atom.
+6. `alt + shift + t` to make a new console
+7. `alt + shift + j/k` to cycle through them
+
+- Setting up Atom for Git Bash integrated console: https://forum.freecodecamp.org/t/bash-on-ubuntu-on-windows-on-atom/44948
+- NOTE: article says to set to: `C:\\Windows\\sysnative\\bash.exe`
+- but I set to: `C:\Program Files\Git\usr\bin\bash.exe` for it to work.
+- if neither work, in Git Bash console, ascertain `$ which bash` and use the Windows syntax C:\path to bash.exe. 
