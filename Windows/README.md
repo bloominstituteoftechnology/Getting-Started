@@ -85,16 +85,21 @@ NOTE: maybe overkill to set it up with both? maybe worth documenting and hiding?
 </p></details>
 
 ### Atom
-- Setting up Atom with an integrated console: https://atom.io/packages/platformio-ide-terminal (PShell default)
-1. ctrl+, for settings
-2. select Install
-3. type in platformio-ide-terminal
-4. Install
+- Setting up Atom with an integrated console: https://atom.io/packages/platformio-ide-terminal (PowerShell is the default)
+1. `ctrl + ,` for settings
+2. select `+ Install`
+3. 3. type in `platformio-ide-terminal`
+4. Install the platformio-ide-terminal package!
 5. ``ctrl + tilda/backtick (~/`)`` to launch a new terminal in Atom.
 6. `alt + shift + t` to make a new console
 7. `alt + shift + j/k` to cycle through them
 
-- Setting up Atom for Git Bash integrated console: https://forum.freecodecamp.org/t/bash-on-ubuntu-on-windows-on-atom/44948
-- NOTE: article says to set to: `C:\\Windows\\sysnative\\bash.exe`
+- Setting up Atom for an integrated console using your Git Bash: https://forum.freecodecamp.org/t/bash-on-ubuntu-on-windows-on-atom/44948
+- NOTE: the article says to set to: `C:\\Windows\\sysnative\\bash.exe`
 - but I set to: `C:\Program Files\Git\usr\bin\bash.exe` for it to work.
-- if neither work, in Git Bash console, ascertain `$ which bash` and use the Windows syntax C:\path to bash.exe.
+- if neither work, in Git Bash console, ascertain which bash.exe file you are using with this command:
+- `$ which bash`
+- and use the Windows syntax for the absolute path `which bash` displays, i.e. `C:\path to bash.exe`.
+- once you know the path, you can open the parent folder if you want to see the actual bash.exe.
+- In Git Bash, enter `open $(dirname $(which bash))`.
+- Then you can see the full Windows syntax pathname in the Windows Explorer bar.
