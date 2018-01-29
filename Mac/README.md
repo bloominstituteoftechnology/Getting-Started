@@ -4,7 +4,7 @@
 3. Close Safari.
 4. Open Chrome.
 5. Download [Git](https://git-scm.com/download/mac) tools.
-6. Download [Node](https://nodejs.org/).
+6. Download the LTS (Long Term Support - i.e. "stable") version of [Node](https://nodejs.org/).
 7. Download a Text Editor:
   - [Atom](https://atom.io/)
   - [Visual Studio Code](https://code.visualstudio.com/download)
