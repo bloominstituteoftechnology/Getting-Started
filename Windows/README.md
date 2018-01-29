@@ -38,7 +38,7 @@
 - [LinkedIn](https://www.linkedin.com)
 
 # Speedy Win10 tricks
-- Cortana, motherfucker!
+- Cortana
 
 # Chrome magic
 - React Developer Tools plugin.
