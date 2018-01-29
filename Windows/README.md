@@ -3,31 +3,36 @@
 2. Download the Google Chrome web browser.
 3. Close Edge.
 4. Open Chrome.
-5. Download Git Bash.
+5. Download [Git Bash](https://git-for-windows.github.io/) (If you are having trouble, [read this](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)). ### Just Git bash, right, no tools? https://git-scm.com/download/mac see also: http://www.jamessturtevant.com/posts/5-Ways-to-install-git-on-Windows/
 6. Download Node.
-7. Download Text Editor (Atom, VSC, vim (comes w/git bash iirc), Sublime(nagware), Brackets)
+7. Download Text Editor ([Atom](https://atom.io/), VSC, vim (comes w/git bash iirc), Sublime(nagware), Brackets)
 8. Download Zoom
-9. Download the Slack.app
+9. Download the [Slack.app](https://www.slack.com/downloads/windows)
 
+### "How do I find out if my Windows computer uses 32-bit or 64-bit?"
+1. Launch the Control Panel
+2. Select System
+3. Look at the "System Type"
 
 # other things?
-- Homebrew
-- telnet (no longer a part of macOS)
+- Package manager like Chocolatey?
+- `telnet` (afaik, not a part of win10 release)
+- `curl` is asking for the IE engine
 - PostMan
 - Expo XDE (React-Native)
-- ngrok
+- `ngrok`
 - Firefox & Opera?
 - ScreenFlow
 - RoboMongo type app for mysql? (workbench?)
 
 # Join the club!
-- Slack
-- GitHub
-- Google
-- Piazza
-- Repl.it
-- CodePen
-- LinkedIn
+- [Slack](https://slack.com/)
+- [GitHub](https://www.github.com/)
+- [Google](https://accounts.google.com/SignUp)
+- [Piazza](https://piazza.com/signup)
+- [Repl.it](https://repl.it/signup)
+- [CodePen](https://codepen.io/)
+- [LinkedIn](https://www.linkedin.com)
 
 # Speedy Win10 tricks
 - Cortana, motherfucker!
