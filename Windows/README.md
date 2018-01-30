@@ -104,7 +104,7 @@ NOTE: maybe overkill to set it up with both? maybe worth documenting and hiding?
 
 - Setting up Atom for an integrated console using your Git Bash: https://forum.freecodecamp.org/t/bash-on-ubuntu-on-windows-on-atom/44948
 - NOTE: the article says to set to: `C:\\Windows\\sysnative\\bash.exe`
-- but I set to: `C:\Program Files\Git\usr\bin\bash.exe` for it to work.
+- but I set the Shell Override to: `C:\Program Files\Git\usr\bin\bash.exe` for it to work.
 - if neither work, in Git Bash console, ascertain which bash.exe file you are using with this command:
 - `$ which bash`
 - and use the Windows syntax for the absolute path `which bash` displays, i.e. `C:\path to bash.exe`.

@@ -17,14 +17,17 @@
 10. Download [Slack](https://slack.com/downloads/osx).
 
 # other things?
-- Homebrew
-- telnet (no longer a part of macOS)
-- PostMan
-- Expo XDE (React-Native)
-- ngrok
-- Firefox & Opera?
-- ScreenFlow
-- RoboMongo type app for mysql? (workbench?)
+- [Homebrew](https://brew.sh/)
+  - remember to `$  brew missing && brew update && brew cleanup && brew cask cleanup && brew prune && brew upgrade && brew doctor` often. Twice . The `&&` syntax means if one fails, the others won't run. Maybe this isn't best practice to always be upgrading... maybe don't need cask cleanup? ::thinks:: https://medium.com/@waxzce/keeping-macos-clean-this-is-my-osx-brew-update-cli-command-6c8f12dc1731 & brew cask (doctor cleanup upgrade) https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md
+- telnet (no longer a part of macOS): `brew install telnet`
+- [PostMan](https://www.getpostman.com
+- [React Native SDK](https://developers.facebook.com/docs/react-native)
+- [Expo XDE](https://expo.io/tools#client) (React-Native) - LOOK FOR NOTE on how to get Expo to reload fast
+- [ngrok](https://ngrok.com/download) Also available through `npm install ngrok` & `brew install ngrok`
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/) & [Opera](https://www.opera.com/)? Opera has "free" VPN :\
+- [ScreenFlow](https://www.telestream.net/screenflow/overview.htm)
+- [RoboMongo](https://robomongo.org/download): Robo 3T
+- similar type app for mysql? (workbench?) https://dev.mysql.com/downloads/workbench/ (Confirm the set up)
 
 # Join the club!
 - [Zoom](https://www.zoom.us/signup)
@@ -41,12 +44,12 @@
 - `⌘ + tab` to cycle through applications.
 
 # Chrome magic
-- React Developer Tools plugin.
-- Redux Developer Tools plugin.
-- One Tab plug-in to minimize open tabs into a list of URLs
-- HTTPS everywhere (Ad Blocker? From EFF.
+- React Developer Tools plugin. not sure about this url: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+- Redux Developer Tools plugin or this one: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
+- [One Tab](https://www.one-tab.com/) plug-in to minimize open tabs into a list of URLs
+- [HTTPS Everywhere](https://www.eff.org/https-everywhere) (& [Ad Blocker](https://www.eff.org/privacybadger)? From EFF).
 - `⌘ + l` focuses to the Location Bar.
-- cmd+option+ left right arrow to cycle through open tabs
+- `cmd+option+ left or right arrow` to cycle through open tabs
 
 # Text Editor efficiency
 - Global project search: ctrl-shift-f VSC, cmd+shift+f Atom
