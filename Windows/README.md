@@ -39,6 +39,7 @@
 
 # Speedy Win10 tricks
 - Cortana
+- Digital color meter: https://graphicdesign.stackexchange.com/q/76383
 
 # Chrome magic
 - React Developer Tools plugin.

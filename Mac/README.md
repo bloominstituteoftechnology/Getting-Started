@@ -42,6 +42,9 @@
 # Speedy macOS tricks
 - `⌘ + spacebar` for the Spotlight Search.
 - `⌘ + tab` to cycle through applications.
+- macOS: check out the Digital Color Meter app (In the /Applications/Utilities folder)
+- `cmd + SHIFT + 3` Screen grab
+- `cmd + SHIFT + 4` Select area screen grab
 
 # Chrome magic
 - React Developer Tools plugin. not sure about this url: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
