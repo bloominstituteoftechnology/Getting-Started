@@ -1,5 +1,5 @@
 # make sure user is set up as administrator?
-- suggestion to pin apps to taskbar, also include snipping tool for screen grabs
+- suggestion to pin apps to taskbar, also include snipping tool for screen grabs, http://www.screentogif.com/ for screen recording
 
 # Development Environment Set-Up
 1. Open the Edge web browser.

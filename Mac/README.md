@@ -45,6 +45,8 @@
 - macOS: check out the Digital Color Meter app (In the /Applications/Utilities folder)
 - `cmd + SHIFT + 3` Screen grab
 - `cmd + SHIFT + 4` Select area screen grab
+- https://gist.github.com/dergachev/4627207
+- https://gifox.io/function
 
 # Chrome magic
 - React Developer Tools plugin. not sure about this url: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
