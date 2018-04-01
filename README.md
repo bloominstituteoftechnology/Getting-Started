@@ -13,7 +13,7 @@
 |---|---|---|
 | Lambda School projects | ~1GB | Free |
 | Chrome | ~400MB | Free |
-| GitBash | ??? | Free |
+| GitBash (Windows) | ??? | Free |
 | NodeJS | ~60MB | Free |
 | NodeJS packages | including `create-react-app`, `lessc`, `nodemon`, `yarn` | Free |
 | Text Editor | (see table below) | Free |
