@@ -45,6 +45,7 @@
 - [Piazza](https://piazza.com/signup)
 - [Repl.it](https://repl.it/signup)
 - [CodePen](https://codepen.io/)
+- [Trello](https://trello.com/signup)
 - [LinkedIn](https://www.linkedin.com)
 
 # Speedy Win10 tricks
