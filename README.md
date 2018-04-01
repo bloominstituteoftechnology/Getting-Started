@@ -43,7 +43,7 @@ $  npm -v
     5.6.0
 ```
 
-Now use the NodeJS Package Manager (`npm`) to install some additional NodeJS packages. With the following command, the `i` is short for **"i"**nstall (you could spell out `install` but you can save six whole keystrokes!) The `-g` flag let's the `npm` command know to install these packages **"g"**lobally on your system.
+Now use the NodeJS Package Manager (`npm`) to install some additional NodeJS packages. With the following command, the `i` is short for **"i"**nstall (you could spell out `install` but you can save six whole keystrokes!) The `-g` flag let's the `npm` command know to install these packages <b>"g"</b>lobally on your system.
 
 ```console
 $ npm i -g create-react-app less nodemon yarn
