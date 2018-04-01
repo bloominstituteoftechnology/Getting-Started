@@ -1,6 +1,8 @@
 # Welcome to Getting Started with your Windows Development Environment
 - suggestion: pin apps to taskbar, also include snipping tool for screen grabs.
 
+#### TODO: Mongo
+
 # Development Environment Set-Up
 1. Open the Edge web browser.
 2. Download the Google [Chrome](https://www.google.com/chrome/) web browser.

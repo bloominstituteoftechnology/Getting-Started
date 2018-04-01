@@ -2,6 +2,7 @@
 
 ### NOTES
 - https://lambdaschoolstudents.slack.com/archives/G8W8LT9SM/p1518711817000364
+- $PATH walkthrough?
 
 ### Minimum hardware requirements?
 - 2GHz processor (?)
@@ -29,12 +30,10 @@
 | VSC | ~200MB | Free |
 | Atom | ~500MB | Free |
 
-
 `*` https://www.sublimetext.com/buy Sublime is a great text editor and the free version is fully-functional. It will occasionally remind to to buy a license (i.e. "nagware"). Licenses are per user, not per machine. If you like it, why not let Jon Skinner and Will Bond know by buying a license?
 
 # Objectives
-
-Once you have downloaded the NodeJS installer and have installed NodeJS on your computer you will have _both_ the `node` and `npm` commands available. Launch your console. Note that it is a convention to use the dollar sign `$` to indicate the console prompt. You want to use the commands which follow this prompt - do not enter `$` into the console. Nothing bad will happen, but the console (i.e. terminal, shell) won't know what to make of it. That said, you can confirm that the `node` and `npm` commands are installed like so:
+Once you have downloaded the NodeJS installer and have installed NodeJS on your computer you will have _both_ the `node` and `npm` commands available. Launch your console. NOTE: it is a convention to use the dollar sign `$` to indicate the console prompt. You want to use the commands which follow this prompt - do not enter `$` into the console. Nothing bad will happen, but the console (i.e. terminal, shell) won't know what to make of it. That said, you can confirm that the `node` and `npm` commands are installed like so:
 
 ```bash
 $  node -v
@@ -43,15 +42,15 @@ $  npm -v
     5.6.0
 ```
 
-Now use the NodeJS Package Manager (`npm`) to install some additional NodeJS packages. With the following command, the `i` is short for "i"nstall (you could spell out `install` but you can save six whole keystrokes!) The `-g` flag let's the `npm` command know to install these packages "g"lobally on your system.
+Now use the NodeJS Package Manager (`npm`) to install some additional NodeJS packages. With the following command, the `i` is short for **"i"**nstall (you could spell out `install` but you can save six whole keystrokes!) The `-g` flag let's the `npm` command know to install these packages **"g"**lobally on your system.
 
 ```bash
 $ npm i -g create-react-app less nodemon yarn
 ```
 
-If you get warnings and errors about permissions, you may need to invoke this command by prepending it with `sudo` - the "s"uper"u"ser "do" command. This will allow the command to be run with more security privileges. You will be prompted for your password.
+If you get warnings and errors about permissions, you may need to invoke this command by prepending it with `sudo` - the **"s"**uper**"u"**ser **"do"** command. This will allow the command to be run with more security privileges. You will be prompted for your password.
 
-By the time you complete the set-up for your particular operating system you should be able to confirm that the following tools are installed on your machine and available through your $PATH:
+By the time you complete the setup for your particular operating system you should be able to confirm that the following tools are installed on your machine and available through your environment's $PATH:
 
 ```bash
 $  node -v

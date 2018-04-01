@@ -1,14 +1,19 @@
 # Welcome to Getting Started with your Linux Development Environment
-- suggestion to pin apps to taskbar
+- You are welcome to use whichever Linux OS you are comfortable with.
+- These instructions have been tested with Ubuntu 16.04 LTS.
+- These instructions should be applicable to any Debian based Linux system (e.g. Arch, Mint, _et cetera_)
+- Suggestion: pin apps to taskbar (Ubuntu equivalent name?)
+
+#### TODO: Mongo
 
 # Development Environment Set-Up
-<!-- 1. Open the Edge web browser.
+<!-- 1. Open the FireFox web browser.
 2. Download the Google [Chrome](https://www.google.com/chrome/) web browser.
-3. Close Edge.
+3. Close Firefox.
 4. Open Chrome.
-5. Download [Git Bash](https://git-for-windows.github.io/) (If you are having trouble, [read this](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)). ???? Just Git bash, right, not the tools for PShell/CMD? https://git-scm.com/download/mac see also: http://www.jamessturtevant.com/posts/5-Ways-to-install-git-on-Windows/ ???TrueType on install???? I think git-from-bash-only??? SSL (not native win secure channel lib)???? CRLF/LF options ???? MinTTY ??? No symbolic links (maybe?) ???
-6. Download the LTS (Long Term Support - i.e. "stable") version of [Node](https://nodejs.org/).
-7. Download Text Editor ([Atom](https://atom.io/), VSC, vim (comes w/git bash iirc), Sublime(nagware), Brackets)
+5. Download the LTS (Long Term Support - i.e. "stable") version of [Node](https://nodejs.org/).
+6. Download Text Editor ([Atom](https://atom.io/), VSC, vim (comes w/git bash iirc), Sublime(nagware), Brackets)
+7. Yarn
 8. Download [Zoom](https://zoom.us/download).
 9. Download [Slack](https://www.slack.com/downloads/windows) (How to stop Slack from auto launching????) -->
 
