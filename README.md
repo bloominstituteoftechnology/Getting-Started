@@ -9,28 +9,29 @@
 - 8GB RAM
 
 ### Adequate storage for Lambda School projects and requisite tools (~5GB)
-| Tool | Storage |
-|---|---|
-| Lambda School projects | ~1GB |
-| Chrome | ~400MB |
-| GitBash | ??? |
-| NodeJS | ~60MB |
-| NodeJS packages | including `yarn`, `create-react-app`, `lessc`, `nodemon` |
-| Text Editor | (see table below) |
-| Zoom | ~30MB |
-| Slack | ~220MB |
-| PostMan | ~260MB |
-| MongoDB GUI | Robo 3T ~60MB, Workbench ?) |
+| Tool | Storage | Cost |
+|---|---|---|
+| Lambda School projects | ~1GB | Free |
+| Chrome | ~400MB | Free |
+| GitBash | ??? | Free |
+| NodeJS | ~60MB | Free |
+| NodeJS packages | including `create-react-app`, `lessc`, `nodemon`, `yarn` | Free |
+| Text Editor | (see table below) | Free |
+| Zoom | ~30MB | Free |
+| Slack | ~220MB | Free |
+| PostMan | ~260MB | Free |
+| MongoDB & mongod | ??? | Free |
+| MongoDB GUI | Robo 3T ~60MB, Workbench ?) | Free |
 
 | Text Editor | Application Size | Cost |
 |---|---|--:|
 | Vim | ~  2MB | Free |
-| Sublime | ~ 30MB (Warning: nagware*) | $80US per single user |
+| Sublime | ~ 30MB (nagware<sup>*</sup>) | $80US per single user |
 | Emacs | ~ 50MB | Free |
 | VSC | ~200MB | Free |
 | Atom | ~500MB | Free |
 
-`*` https://www.sublimetext.com/buy Sublime is a great text editor and the free version is fully-functional. It will occasionally remind to to buy a license (i.e. "nagware"). Licenses are per user, not per machine. If you like it, why not let Jon Skinner and Will Bond know by buying a license?
+<sup>*</sup> https://www.sublimetext.com/buy Sublime is a great text editor and the free version is fully-functional. It will occasionally remind to to buy a license (i.e. "nagware"). Licenses are per user, not per machine. If you like it, why not let Jon Skinner and Will Bond know by buying a license?
 
 # Objectives
 Once you have downloaded the NodeJS installer and have installed NodeJS on your computer you will have _both_ the `node` and `npm` commands available. Launch your console. NOTE: it is a convention to use the dollar sign `$` to indicate the console prompt. You want to use the commands which follow this prompt - do not enter `$` into the console. Nothing bad will happen, but the console (i.e. terminal, shell) won't know what to make of it. That said, you can confirm that the `node` and `npm` commands are installed like so:
@@ -78,7 +79,6 @@ $  mongod --version
 
 NOTE: these version numbers may be different than yours.
 
-
 # Sign Up!
 - [ ] [Zoom](https://www.zoom.us/signup)
 - [ ] [Slack](https://slack.com/)
@@ -89,3 +89,4 @@ NOTE: these version numbers may be different than yours.
 - [ ] [CodePen](https://codepen.io/)
 - [ ] [Trello](https://trello.com/signup)
 - [ ] [LinkedIn](https://www.linkedin.com)
+- [ ] [MLab](https://mlab.com/signup/)
