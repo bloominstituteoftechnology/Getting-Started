@@ -9,15 +9,44 @@
 3. Close Safari.
 4. Open Chrome.
 5. Download [Git](https://git-scm.com/download/mac) tools.
+  - Confirm your installation. The version check command should report similarly:
+  ```console
+  $  git version
+         git version 2.15.1 (Apple Git-101)
+  ```
 6. Download the LTS (Long Term Support - i.e. "stable") version of [Node](https://nodejs.org/).
+  - Confirm your installation:
+  ```console
+  $  node -v
+         v8.11.1
+  $  npm -v
+         5.6.0
+    ```
 7. Download a Text Editor:
   - [Atom](https://atom.io/)
   - [Visual Studio Code](https://code.visualstudio.com/download)
   - [Sublime](https://www.sublimetext.com/3) (nagware)
   - [Brackets](http://brackets.io/)
-8. Install Xcode CLI (Command Line Interface): tools <<< may not be necessary?
+8. Install Xcode and the Xcode CLI (Command Line Interface) tools:
   - Install Xcode: https://developer.apple.com/xcode/downloads/
-  - Install Xcode CLI tools: https://developer.apple.com/download/more/
+  - Confirm your installation:
+  ```console
+  $  xcode-select --version
+         xcode-select version 2349.
+  ```
+  - Install Xcode CLI tools: https://developer.apple.com/download/more/ (I think these get installed now with Xcode)
+  - Xcode CLI installs additional tools such as `gcc`. Confirm your installation by using the `which` command on one to the tools Xcode CLI installs. You should see something like this:
+  ```console
+  $  gcc --version
+         Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/c++/4.2.1
+         Apple LLVM version 9.1.0 (clang-902.0.39.1)
+         Target: x86_64-apple-darwin17.5.0
+         Thread model: posix
+         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+  ```
+  - NOTE: there are also the Additional Tools for Xcode, but I don't think we need these for Lambda School:
+  > This package includes audio, graphics, hardware i/o and auxiliary tools formally bundled in Xcode. These tools include: AU Lab, HALLab, OpenGL Driver Monitor, OpenGL Profiler, Pixie, Quartz Composer, Quartz Composer Visualizer, Quartz Debug, Apple Bluetooth Guidelines Validation (Requires macOS Sierra), Bluetooth Explorer (Requires macOS Sierra), HomeKit Accessory Simulator, IO Registry Explorer, Network Link Conditioner.prefpane, PacketLogger, Printer Simulator,  64BitConversion, Clipboard Viewer, CrashReporterPrefs, Dictionary Development Kit, Help Indexer, Modem Scripts and Repeat After Me.
+
 9. Download [Zoom](https://zoom.us/download).
 10. Download [Slack](https://slack.com/downloads/osx).
 
@@ -54,6 +83,14 @@
 - `cmd + SHIFT + 4` Select area screen grab
 - https://gist.github.com/dergachev/4627207
 - https://gifox.io/function
+- Is everything up to date?
+  ```console
+  $  softwareupdate --list
+      Software Update Tool
+
+      Finding available software
+      No new software available.
+  ```
 
 # Chrome magic
 - React Developer Tools plugin. not sure about this url: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
@@ -66,3 +103,5 @@
 # Text Editor efficiency
 - Global project search: ctrl-shift-f VSC, cmd+shift+f Atom
 - Select matching pattern: cmd/ctrl+D Atom/VSC
+
+# Command Line Tools installed with Xcode CLI

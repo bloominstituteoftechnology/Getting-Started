@@ -17,17 +17,19 @@
 ### Minimum storage requirements for Lambda School projects and requisite tools: ~20GB
 | Tool | Storage | Cost |
 |---|---|---|
-| Lambda School projects | ~10GB | Free |
+| Lambda School projects | ~ 10GB | Free |
 | Chrome | ~400MB | Free |
+| Git | ~ 80MB | Free |
 | GitBash (Windows) | ??? | Free |
-| NodeJS | ~60MB | Free |
-| NodeJS packages | including `create-react-app`, `lessc`, `nodemon`, `yarn` | Free |
+| Xcode & Xcode CLI Tools (macOS) | ~ 11**GB** | Free (requires Apple user account) |
+| NodeJS | ~ 60MB | Free |
+| NodeJS packages | ~ 30MB including `create-react-app`, `lessc`, `nodemon`, `yarn` | Free |
 | Text Editor | (see table below) | Free |
-| Zoom | ~30MB | Free |
+| Zoom | ~ 30MB | Free |
 | Slack | ~220MB | Free |
 | PostMan | ~260MB | Free |
 | MongoDB & mongod | ??? | Free |
-| MongoDB GUI | Robo 3T ~60MB, Workbench ?) | Free |
+| MongoDB GUI | ~ 60MB Robo 3T , Workbench ?) | Free |
 
 | Text Editor | Application Size | Cost |
 |---|---|--:|
