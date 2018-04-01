@@ -15,7 +15,7 @@
     ```console
     choco install yarn
     ```
-8. Download Text Editor ([Atom](https://atom.io/), VSC, vim (comes w/git bash iirc), Sublime(nagware), Brackets)
+8. Download Text Editor ([Atom](https://atom.io/), [VSC](https://code.visualstudio.com/download), vim (comes w/git bash iirc), Sublime(nagware), Brackets, et cetera.)
 9. Download [Zoom](https://zoom.us/download).
 10. Download [Slack](https://www.slack.com/downloads/windows) (How to stop Slack from auto launching????)
 
