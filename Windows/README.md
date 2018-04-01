@@ -1,4 +1,4 @@
-# Welcome to Getting Started with your Windows Development Environment
+# Welcome to Lambda School's Installation Guide for your Windows operating system
 - suggestion: pin apps to taskbar, also include snipping tool for screen grabs.
 
 #### TODO: Mongo

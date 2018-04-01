@@ -3,12 +3,17 @@
 ### NOTES
 - https://lambdaschoolstudents.slack.com/archives/G8W8LT9SM/p1518711817000364
 - $PATH walkthrough?
+- TODO: MongoDB install
 
-### Minimum hardware requirements?
+### Minimum hardware requirements - accurate?
 - 2GHz processor (?)
 - 8GB RAM
+- 5GB of hard drive space, in addition to a minimum of 10% free space on your internal hard-disk or solid-state drive.
+  - For example, if you have a 500GB capacity drive, you will want at the very minimum 50GB of unallocated (free) storage space for optimal system performance.
+  - In addition to this free space, you will need 5GB of storage space for your work and tools.
+  - If your internal drive is within 20% of capacity (i.e. 400GB used on a 500GB capacity drive), we recommend that you archive as much data as you can to free up some space.
 
-### Adequate storage for Lambda School projects and requisite tools (~5GB)
+### Minimum storage requirements for Lambda School projects and requisite tools: ~5GB
 | Tool | Storage | Cost |
 |---|---|---|
 | Lambda School projects | ~1GB | Free |
@@ -33,8 +38,20 @@
 
 <sup>*</sup> https://www.sublimetext.com/buy Sublime is a great text editor. The free version is fully-functional. It will occasionally remind to to buy a license (i.e. "nagware"). Licenses are per user, not per machine. If you like it, why not let Jon Skinner and Will Bond know by buying a license?
 
-# Objectives
-Once you have downloaded the NodeJS installer and have installed NodeJS on your computer you will have _both_ the `node` and `npm` commands available. Launch your console. NOTE: it is a convention to use the dollar sign `$` to indicate the console prompt. You want to use the commands which follow this prompt - do not enter `$` into the console. Nothing bad will happen, but the console (i.e. terminal, shell) won't know what to make of it. That said, you can confirm that the `node` and `npm` commands are installed like so:
+***
+
+# Installation Guide for _YOUR_ operating system
+If you have adequate storage, processor speed and memory (RAM), please follow the instruction guide for your operating system:
+1. [Linux](Linux/README.md)
+2. [macOS](Mac/README.md)
+3. [Windows](Windows/README.md)
+
+If you do not meet the minimum hardware and storage requirements, please fill out this form: [Lambda School Loaner Device Request](https://airtable.com/shrEHS8dPFyhcYBMI)
+
+# Once you are done with the installation guide for your operating system, please continue to install the following tools.
+## DO NOT proceed unless you have completed the Installation Guide.
+
+Having downloaded the NodeJS installer and installed NodeJS on your computer you will have _both_ the `node` and `npm` commands available. Now launch your console. NOTE: it is a convention to use the dollar sign `$` to indicate the console prompt. You want to use the commands which follow this prompt - do not enter `$` into the console. Nothing bad will happen, but the console (i.e. terminal, shell) won't know what to make of it. That said, you can confirm that the `node` and `npm` commands are installed like so:
 
 ```console
 $  node -v
@@ -43,7 +60,7 @@ $  npm -v
     5.6.0
 ```
 
-Now use the NodeJS Package Manager (`npm`) to install some additional NodeJS packages. With the following command, the `i` is short for **"i"**nstall (you could spell out `install` but you can save six whole keystrokes!) The `-g` flag let's the `npm` command know to install these packages <b>"g"</b>lobally on your system.
+Now use the NodeJS Package Manager (`npm`) to install some additional NodeJS packages. With the following command, the `i` is short for <b>"i"</b>nstall (you could spell out `install` but you can save six whole keystrokes!) The `-g` flag let's the `npm` command know to install these packages <b>"g"</b>lobally on your system.
 
 ```console
 $ npm i -g create-react-app less nodemon yarn

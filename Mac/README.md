@@ -1,4 +1,4 @@
-# Welcome to Getting Started with your macOS Development Environment
+# Welcome to Lambda School's Installation Guide for macOS
 - suggestion: add apps to Dock.
 
 #### TODO: Mongo

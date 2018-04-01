@@ -1,4 +1,4 @@
-# Welcome to Getting Started with your Linux Development Environment
+# Welcome to Lambda School's Installation Guide for your Linux operating system
 - You are welcome to use whichever Linux OS you are comfortable with.
 - These instructions have been tested with Ubuntu 16.04 LTS.
 - These instructions should be applicable to any Debian based Linux system (e.g. Arch, Mint, _et cetera_)
