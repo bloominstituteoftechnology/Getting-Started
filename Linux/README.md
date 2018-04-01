@@ -1,4 +1,4 @@
-# make sure user is set up as administrator?
+# Welcome to Getting Started with your Linux Development Environment
 - suggestion to pin apps to taskbar
 
 # Development Environment Set-Up

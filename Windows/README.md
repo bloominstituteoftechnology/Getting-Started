@@ -1,4 +1,4 @@
-# Welcome to Getting Started with Windows
+# Welcome to Getting Started with your Windows Development Environment
 - suggestion: pin apps to taskbar, also include snipping tool for screen grabs.
 
 # Development Environment Set-Up

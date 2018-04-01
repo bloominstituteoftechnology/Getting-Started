@@ -1,3 +1,6 @@
+# Welcome to Getting Started with your macOS Development Environment
+- suggestion: add apps to Dock.
+
 # Development Environment Set-Up
 1. Open the Safari web browser.
 2. Download the Google [Chrome](https://www.google.com/chrome/) web browser.
