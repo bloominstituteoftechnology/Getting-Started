@@ -39,14 +39,14 @@
 - RoboMongo type app for mysql? (workbench?)
 
 # Join the club!
-- [Slack](https://slack.com/)
-- [GitHub](https://www.github.com/)
-- [Google](https://accounts.google.com/SignUp)
-- [Piazza](https://piazza.com/signup)
-- [Repl.it](https://repl.it/signup)
-- [CodePen](https://codepen.io/)
-- [Trello](https://trello.com/signup)
-- [LinkedIn](https://www.linkedin.com)
+- [ ] [Slack](https://slack.com/)
+- [ ] [GitHub](https://www.github.com/)
+- [ ] [Google](https://accounts.google.com/SignUp)
+- [ ] [Piazza](https://piazza.com/signup)
+- [ ] [Repl.it](https://repl.it/signup)
+- [ ] [CodePen](https://codepen.io/)
+- [ ] [Trello](https://trello.com/signup)
+- [ ] [LinkedIn](https://www.linkedin.com)
 
 # Speedy Win10 tricks
 - Cortana

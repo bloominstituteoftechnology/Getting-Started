@@ -30,15 +30,15 @@
 - similar type app for mysql? (workbench?) https://dev.mysql.com/downloads/workbench/ (Confirm the set up)
 
 # Join the club!
-- [Zoom](https://www.zoom.us/signup)
-- [Slack](https://slack.com/)
-- [GitHub](https://www.github.com/)
-- [Google](https://accounts.google.com/SignUp)
-- [Piazza](https://piazza.com/signup)
-- [Repl.it](https://repl.it/signup)
-- [CodePen](https://codepen.io/)
-- [Trello](https://trello.com/signup)
-- [LinkedIn](https://www.linkedin.com)
+- [ ] [Zoom](https://www.zoom.us/signup)
+- [ ] [Slack](https://slack.com/)
+- [ ] [GitHub](https://www.github.com/)
+- [ ] [Google](https://accounts.google.com/SignUp)
+- [ ] [Piazza](https://piazza.com/signup)
+- [ ] [Repl.it](https://repl.it/signup)
+- [ ] [CodePen](https://codepen.io/)
+- [ ] [Trello](https://trello.com/signup)
+- [ ] [LinkedIn](https://www.linkedin.com)
 
 # Speedy macOS tricks
 - `⌘ + spacebar` for the Spotlight Search.
