@@ -49,7 +49,7 @@ Now use the NodeJS Package Manager (`npm`) to install some additional NodeJS pac
 $ npm i -g create-react-app less nodemon yarn
 ```
 
-If you get warnings and errors about permissions, you may need to invoke this command by prepending it with `sudo` - the **"s"**uper**"u"**ser **"do"** command. This will allow the command to be run with more security privileges. You will be prompted for your password.
+If you get warnings and errors about permissions, you may need to invoke this command by prepending it with `sudo` - the **"s"**uper **"u"**ser **"do"** command. This will allow the command to be run with more security privileges. You will be prompted for your password.
 
 By the time you complete the setup for your particular operating system you should be able to confirm that the following tools are installed on your machine and available through your environment's $PATH:
 
