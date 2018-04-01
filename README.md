@@ -54,7 +54,7 @@ If you do not meet the minimum hardware and storage requirements, please fill ou
 # Once you are done with the installation guide for your operating system, please continue to install the following tools.
 ## DO NOT proceed unless you have completed the Installation Guide.
 
-Having downloaded the NodeJS installer and installed NodeJS on your computer you will have _both_ the `node` and `npm` commands available. Now launch your console. NOTE: it is a convention to use the dollar sign `$` to indicate the console prompt. You want to use the commands which follow this prompt - do not enter `$` into the console. Nothing bad will happen, but the console (i.e. terminal, shell) won't know what to make of it. That said, you can confirm that the `node` and `npm` commands are installed like so:
+Having downloaded the NodeJS installer and installed NodeJS on your computer you will have _both_ the `node` and `npm` commands available. Now launch your console. NOTE: it is a convention to use the dollar sign `$` to indicate the console prompt. You want to use the commands which follow this prompt - do not enter `$` into the console. Nothing bad will happen, but the console (i.e. terminal, shell) won't know what to make of it. If you include the `$` you may get a return message like so: `bash: $: command not found` That said, you can confirm that the `node` and `npm` commands are installed like so:
 
 ```console
 $  node -v
@@ -71,7 +71,34 @@ $ npm i -g create-react-app less nodemon yarn
 
 If you get warnings and errors about permissions, you may need to invoke this command by prepending it with `sudo` - the <b>"s"</b>uper <b>"u"</b>ser <b>"do"</b> command. This will allow the command to be run with more security privileges. You will be prompted for your password.
 
-By the time you complete the setup for your particular operating system you should be able to confirm that the following tools are installed on your machine and available through your environment's $PATH:
+```console
+$  sudo npm i -g create-react-app less nodemon yarn
+    Password:
+    /usr/local/bin/create-react-app -> /usr/local/lib/node_modules/create-react-app/index.js
+
+    /usr/local/bin/lessc -> /usr/local/lib/node_modules/less/bin/lessc
+    /usr/local/bin/nodemon -> /usr/local/lib/node_modules/nodemon/bin/nodemon.js
+    /usr/local/bin/yarn -> /usr/local/lib/node_modules/yarn/bin/yarn.js
+    /usr/local/bin/yarnpkg -> /usr/local/lib/node_modules/yarn/bin/yarn.js
+
+    > nodemon@1.17.3 postinstall /usr/local/lib/node_modules/nodemon
+    > node -e "console.log('\u001b[32mLove nodemon? You can now support the project via the open collective:\u001b[22m\u001b[39m\n > \u001b[96m\u001b[1mhttps://opencollective.com/nodemon/donate\u0
+    01b[0m\n')" || exit 0
+
+    Love nodemon? You can now support the project via the open collective:
+     > https://opencollective.com/nodemon/donate
+
+    + less@3.0.1
+    + create-react-app@1.5.2
+    + nodemon@1.17.3
+    + yarn@1.5.1
+    updated 4 packages in 33.696s
+```
+
+***
+
+# After you've complete the setup for your particular operating system
+You should be able to confirm that the following tools are installed on your machine and available through your environment's $PATH:
 
 ```console
 $  node -v
@@ -97,7 +124,20 @@ $  mongod --version
         target_arch: x86_64
 ```
 
-NOTE: these version numbers may be different than yours.
+NOTE: these version numbers and the console readout may be different than yours.
+
+You can also confirm which global installations you've made with the NodeJS package manager:
+```console
+$  npm list -g --depth=0
+    /usr/local/lib
+    ├── create-react-app@1.5.2
+    ├── less@3.0.1
+    ├── nodemon@1.17.3
+    ├── npm@5.6.0
+    └── yarn@1.5.1
+```
+
+***
 
 # Sign Up!
 - [ ] [Zoom](https://www.zoom.us/signup)
