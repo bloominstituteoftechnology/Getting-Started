@@ -36,7 +36,7 @@
 # Objectives
 Once you have downloaded the NodeJS installer and have installed NodeJS on your computer you will have _both_ the `node` and `npm` commands available. Launch your console. NOTE: it is a convention to use the dollar sign `$` to indicate the console prompt. You want to use the commands which follow this prompt - do not enter `$` into the console. Nothing bad will happen, but the console (i.e. terminal, shell) won't know what to make of it. That said, you can confirm that the `node` and `npm` commands are installed like so:
 
-```bash
+```console
 $  node -v
     v8.11.1
 $  npm -v
@@ -45,7 +45,7 @@ $  npm -v
 
 Now use the NodeJS Package Manager (`npm`) to install some additional NodeJS packages. With the following command, the `i` is short for **"i"**nstall (you could spell out `install` but you can save six whole keystrokes!) The `-g` flag let's the `npm` command know to install these packages **"g"**lobally on your system.
 
-```bash
+```console
 $ npm i -g create-react-app less nodemon yarn
 ```
 
@@ -53,7 +53,7 @@ If you get warnings and errors about permissions, you may need to invoke this co
 
 By the time you complete the setup for your particular operating system you should be able to confirm that the following tools are installed on your machine and available through your environment's $PATH:
 
-```bash
+```console
 $  node -v
     v8.11.1
 $  npm -v

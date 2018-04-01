@@ -23,7 +23,7 @@
 
 # other things?
 - [Homebrew](https://brew.sh/)
-  - remember to `$  brew missing && brew update && brew cleanup && brew cask cleanup && brew prune && brew upgrade && brew doctor` often. Twice . The `&&` syntax means if one fails, the others won't run. Maybe this isn't best practice to always be upgrading... maybe don't need cask cleanup? ::thinks:: https://medium.com/@waxzce/keeping-macos-clean-this-is-my-osx-brew-update-cli-command-6c8f12dc1731 & brew cask (doctor cleanup upgrade) https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md
+  - remember to `$  brew missing && brew update && brew cleanup && brew cask cleanup && brew prune && brew upgrade && brew doctor` often. Twice ...or more. The `&&` syntax means if one fails, the others won't run. Maybe this isn't best practice to always be upgrading... maybe don't need cask cleanup? ::thinks:: https://medium.com/@waxzce/keeping-macos-clean-this-is-my-osx-brew-update-cli-command-6c8f12dc1731 & brew cask (doctor cleanup upgrade) https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md
 - telnet (no longer a part of macOS): `brew install telnet`
 - [PostMan](https://www.getpostman.com
 - [React Native SDK](https://developers.facebook.com/docs/react-native)
