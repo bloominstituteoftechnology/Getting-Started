@@ -7,7 +7,7 @@
 3. Close Edge.
 4. Open Chrome.
 5. Download [Git Bash](https://git-for-windows.github.io/). Also available here: https://git-scm.com/download/win (If you are having trouble, [read this](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)).
-    * ???? Just Git bash, right, not the tools for PShell/CMD? https://git-scm.com/download/mac see also: http://www.jamessturtevant.com/posts/5-Ways-to-install-git-on-Windows/ ???TrueType on install???? I think git-from-bash-only??? SSL (not native win secure channel lib)???? CRLF/LF options ???? MinTTY ??? No symbolic links (maybe?) ???
+    * Just GitBash or the tools for PShell/CMD? See also: http://www.jamessturtevant.com/posts/5-Ways-to-install-git-on-Windows/ ???TrueType on install???? I think git-from-bash-only??? SSL (not native win secure channel lib)???? CRLF/LF options ???? MinTTY ??? No symbolic links (maybe?) ??? SEE PICS - coming soon.
 6. Download the LTS (Long Term Support - i.e. "stable") version of [Node](https://nodejs.org/).
 7. Download Text Editor ([Atom](https://atom.io/), VSC, vim (comes w/git bash iirc), Sublime(nagware), Brackets)
 8. Download [Zoom](https://zoom.us/download).
