@@ -26,7 +26,7 @@
 | Text Editor | Application Size | Cost |
 |---|---|--:|
 | Vim | ~  2MB | Free |
-| Sublime | ~ 30MB (nagware<sup>*</sup>) | $80US per single user |
+| Sublime | ~ 30MB | Free nagware<sup>*</sup> or $80US per single user |
 | Emacs | ~ 50MB | Free |
 | VSC | ~200MB | Free |
 | Atom | ~500MB | Free |
