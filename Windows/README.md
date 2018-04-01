@@ -1,5 +1,5 @@
-# make sure user is set up as administrator?
-- suggestion to pin apps to taskbar, also include snipping tool for screen grabs
+# Welcome to Getting Started with Windows
+- suggestion: pin apps to taskbar, also include snipping tool for screen grabs.
 
 # Development Environment Set-Up
 1. Open the Edge web browser.
@@ -51,10 +51,11 @@
 - Cortana
 
 # Chrome magic
-- React Developer Tools plugin.
-- Redux Developer Tools plugin.
-- One Tab plug-in to minimize open tabs into a list of URLs
-- HTTPS everywhere (Ad Blocker? From EFF.
+- React Developer Tools plugin: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+- Redux Developer Tools plugin: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+- One Tab plug-in to minimize open tabs into a list of URLs: https://www.one-tab.com/
+- HTTPS everywhere from EFF: https://www.eff.org/https-everywhere
+- Privacy Badger from EFF: https://www.eff.org/privacybadger
 - `ctrl + l` focuses to the Location Bar.
 - ctrl+option+ left right arrow to cycle through open tabs???
 
