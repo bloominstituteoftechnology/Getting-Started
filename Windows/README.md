@@ -17,6 +17,7 @@
     ```
 8. Download Text Editor ([Atom](https://atom.io/), [VSC](https://code.visualstudio.com/download), vim (comes w/git bash iirc), Sublime(nagware), Brackets, et cetera.)
 9. Download [Zoom](https://zoom.us/download).
+  - You may also want the plugin for Outlook or the Extension for the Chrome browser (scroll down on the Downloads page).
 10. Download [Slack](https://www.slack.com/downloads/windows) (How to stop Slack from auto launching????)
 
 ### "How do I find out if my Windows computer uses 32-bit or 64-bit?"
