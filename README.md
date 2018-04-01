@@ -8,15 +8,15 @@
 ### Minimum hardware requirements - accurate?
 - 2GHz processor (?)
 - 8GB RAM
-- 5GB of hard drive space, in addition to a minimum of 10% free space on your internal hard-disk or solid-state drive.
+- 20GB of hard drive space, in addition to a minimum of 10% free space on your internal hard-disk or solid-state drive.
   - For example, if you have a 500GB capacity drive, you will want at the very minimum 50GB of unallocated (free) storage space for optimal system performance.
-  - In addition to this free space, you will need 5GB of storage space for your work and tools.
+  - In addition to this free space, you will need 20GB of storage space for your work and tools.
   - If your internal drive is within 20% of capacity (i.e. 400GB used on a 500GB capacity drive), we recommend that you archive as much data as you can to free up some space.
 
-### Minimum storage requirements for Lambda School projects and requisite tools: ~5GB
+### Minimum storage requirements for Lambda School projects and requisite tools: ~20GB
 | Tool | Storage | Cost |
 |---|---|---|
-| Lambda School projects | ~1GB | Free |
+| Lambda School projects | ~10GB | Free |
 | Chrome | ~400MB | Free |
 | GitBash (Windows) | ??? | Free |
 | NodeJS | ~60MB | Free |
