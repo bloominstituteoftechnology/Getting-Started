@@ -15,13 +15,14 @@
 
 ### "How do I find out if my Windows computer uses 32-bit or 64-bit?"
 1. Launch the Control Panel
-2. Select System
-3. Look at the "System Type"
+2. Select System & Security
+3. Select System
+4. Look at the "System Type"
 
 # other things?
 - Package manager like [Chocolatey](https://chocolatey.org/)?
 - `telnet` (afaik, not a part of win10 release) https://social.technet.microsoft.com/wiki/contents/articles/38433.windows-10-enabling-telnet-client.aspx see also: http://www.sysprobs.com/install-and-enable-telnet-in-windows-8-use-as-telnet-client
-- `curl` is asking for the IE engine? https://youtu.be/qlTVMuONazs
+- `curl` is asking for the IE engine? https://youtu.be/qlTVMuONazs. Seems to be part of GitBash.
 - PostMan
 - Expo XDE (React-Native)
 - `ngrok`
