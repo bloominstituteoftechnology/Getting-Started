@@ -5,23 +5,23 @@
 
 # Development Environment Set-Up
 1. Open the Edge web browser.
-2. Download the Google [Chrome](https://www.google.com/chrome/) web browser.
+2. Install the Google [Chrome](https://www.google.com/chrome/) web browser.
 3. Close Edge.
 4. Open Chrome.
-5. Download [Git Bash](https://git-for-windows.github.io/). Also available here: https://git-scm.com/download/win (If you are having trouble, [read this](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)).
+5. Install [Git Bash](https://git-for-windows.github.io/). Also available here: https://git-scm.com/download/win (If you are having trouble, [read this](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)).
     * Just GitBash or the tools for PShell/CMD? See also: http://www.jamessturtevant.com/posts/5-Ways-to-install-git-on-Windows/
     * With Git installer: TrueType on install? I think git-from-bash-only or CMD too? SSL (not native win secure channel lib)? CRLF/LF options (suggested)? MinTTY? No symbolic links (maybe)? SEE PICS.
-6. Download the LTS (Long Term Support - i.e. "stable") version of [Node](https://nodejs.org/).
+6. Install the LTS (Long Term Support - i.e. "stable") version of [NodeJS](https://nodejs.org/).
 7. Install [Yarn](https://yarnpkg.com).
     - Yarn Installer: https://yarnpkg.com/latest.msi
     - Install with the [Chocolatey](https://chocolatey.org/) package manager. Follow [these instructions](https://chocolatey.org/install).
         ```console
         choco install yarn
         ```
-8. Download Text Editor ([Atom](https://atom.io/), [VSC](https://code.visualstudio.com/download), vim (comes w/git bash iirc), Sublime(nagware), Brackets, et cetera.)
-9. Download [Zoom](https://zoom.us/download).
+8. Install a Text Editor ([Atom](https://atom.io/), [VSC](https://code.visualstudio.com/download), vim (comes w/git bash iirc), Sublime(nagware), Brackets, et cetera.)
+9. Install [Zoom](https://zoom.us/download).
     - You may also want the plugin for Outlook or the Extension for the Chrome browser (scroll down on the Downloads page).
-10. Download [Slack](https://www.slack.com/downloads/windows) (How to stop Slack from auto launching????)
+10. Install [Slack](https://www.slack.com/downloads/windows) (How to stop Slack from auto launching????)
 
 ### "How do I find out if my Windows computer uses 32-bit or 64-bit?"
 1. Launch the Control Panel

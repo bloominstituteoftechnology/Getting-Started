@@ -5,7 +5,7 @@
 
 # Development Environment Set-Up
 1. Open the Safari web browser.
-2. Download the Google [Chrome](https://www.google.com/chrome/) web browser.
+2. Install the Google [Chrome](https://www.google.com/chrome/) web browser.
 3. Close Safari.
 4. Open Chrome.
 5. Download [Git](https://git-scm.com/download/mac) tools.
@@ -14,7 +14,7 @@
   $  git version
          git version 2.15.1 (Apple Git-101)
   ```
-6. Download the LTS (Long Term Support - i.e. "stable") version of [Node](https://nodejs.org/).
+6. Install the LTS (Long Term Support - i.e. "stable") version of [NodeJS](https://nodejs.org/).
   - Confirm your installation:
   ```console
   $  node -v
@@ -22,7 +22,7 @@
   $  npm -v
          5.6.0
     ```
-7. Download a Text Editor:
+7. Install a Text Editor:
   - [Atom](https://atom.io/)
   - [Visual Studio Code](https://code.visualstudio.com/download)
   - [Sublime](https://www.sublimetext.com/3) (nagware)
@@ -52,8 +52,10 @@
   - NOTE: there are also the Additional Tools for Xcode, but I don't think we need these for Lambda School:
   > This package includes audio, graphics, hardware i/o and auxiliary tools formally bundled in Xcode. These tools include: AU Lab, HALLab, OpenGL Driver Monitor, OpenGL Profiler, Pixie, Quartz Composer, Quartz Composer Visualizer, Quartz Debug, Apple Bluetooth Guidelines Validation (Requires macOS Sierra), Bluetooth Explorer (Requires macOS Sierra), HomeKit Accessory Simulator, IO Registry Explorer, Network Link Conditioner.prefpane, PacketLogger, Printer Simulator,  64BitConversion, Clipboard Viewer, CrashReporterPrefs, Dictionary Development Kit, Help Indexer, Modem Scripts and Repeat After Me.
 
-9. Download [Zoom](https://zoom.us/download).
-10. Download [Slack](https://slack.com/downloads/osx).
+9. Install [Zoom](https://zoom.us/download).
+10. Install [Slack](https://slack.com/downloads/osx).
+11. Install [MongoDB]()
+11. Install [Compass]()
 
 # other things?
 - [Homebrew](https://brew.sh/)
