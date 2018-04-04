@@ -35,7 +35,7 @@
          xcode-select version 2349.
   ```
   - Install Xcode CLI tools: https://developer.apple.com/download/more/
-  - Xcode CLI installs additional tools such as `gcc`. Confirm your installation by using the `which` command on one to the tools Xcode CLI installs. You should see something like this:
+  - Xcode CLI installs additional tools such as `gcc`. Confirm your installation by using the `version` command on one to the tools Xcode CLI installs. You should see something like this:
   ```console
   $  gcc --version
          Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/c++/4.2.1
