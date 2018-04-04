@@ -1,5 +1,5 @@
 # Welcome to Lambda School's Installation Guide for macOS
-- suggestion: add apps to Dock.
+- suggestion: Keep apps to Dock.
 
 #### TODO: Mongo, React-Native?
 
@@ -34,7 +34,7 @@
   $  xcode-select --version
          xcode-select version 2349.
   ```
-  - Install Xcode CLI tools: https://developer.apple.com/download/more/ (I think these get installed now with Xcode)
+  - Install Xcode CLI tools: https://developer.apple.com/download/more/
   - Xcode CLI installs additional tools such as `gcc`. Confirm your installation by using the `which` command on one to the tools Xcode CLI installs. You should see something like this:
   ```console
   $  gcc --version
@@ -43,6 +43,11 @@
          Target: x86_64-apple-darwin17.5.0
          Thread model: posix
          InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+  ```
+  - If you see the following, then you have not yet installed Xcode CLI tools:
+  ```bash
+  $ gcc
+      xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
   ```
   - NOTE: there are also the Additional Tools for Xcode, but I don't think we need these for Lambda School:
   > This package includes audio, graphics, hardware i/o and auxiliary tools formally bundled in Xcode. These tools include: AU Lab, HALLab, OpenGL Driver Monitor, OpenGL Profiler, Pixie, Quartz Composer, Quartz Composer Visualizer, Quartz Debug, Apple Bluetooth Guidelines Validation (Requires macOS Sierra), Bluetooth Explorer (Requires macOS Sierra), HomeKit Accessory Simulator, IO Registry Explorer, Network Link Conditioner.prefpane, PacketLogger, Printer Simulator,  64BitConversion, Clipboard Viewer, CrashReporterPrefs, Dictionary Development Kit, Help Indexer, Modem Scripts and Repeat After Me.
