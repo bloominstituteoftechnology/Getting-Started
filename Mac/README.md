@@ -54,8 +54,15 @@
 
 9. Install [Zoom](https://zoom.us/download).
 10. Install [Slack](https://slack.com/downloads/osx).
-11. Install [MongoDB]()
-11. Install [Compass]()
+11. Install [MongoDB](https://www.mongodb.com/download-center?jmp=nav#community)
+  - Choose the Current Stable Release (Currently 3.6.3)
+  - Select "OS X 10.7+ 64-bit w/SSL x64"
+  - Download and install
+  - Or, you can [follow the instructions to install with Homebrew](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition-with-homebrew).
+12. Install [Compass](https://www.mongodb.com/download-center?jmp=nav#compass)
+  - Select the latest verion of "Community Edition Stable" (currently 1.12.4).
+  - Select "OS X 64-bit (10.10+)"
+  - Download and install.
 
 # other things?
 - [Homebrew](https://brew.sh/)
