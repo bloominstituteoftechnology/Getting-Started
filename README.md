@@ -28,8 +28,8 @@
 | Zoom | ~ 30MB | Free |
 | Slack | ~220MB | Free |
 | PostMan | ~260MB | Free |
-| MongoDB & mongod | ??? | Free |
-| MongoDB GUI | ~ 60MB Robo 3T , Workbench ?) | Free |
+| MongoDB & mongod | ~200MB | Free |
+| MongoDB GUI | ~ 60MB Robo 3T , 500MB MongoDB Compass) | Free |
 
 | Text Editor | Application Size | Cost |
 |---|---|--:|

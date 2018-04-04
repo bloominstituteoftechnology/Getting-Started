@@ -12,9 +12,9 @@
     * Just GitBash or the tools for PShell/CMD? See also: http://www.jamessturtevant.com/posts/5-Ways-to-install-git-on-Windows/
     * With Git installer: TrueType on install? I think git-from-bash-only or CMD too? SSL (not native win secure channel lib)? CRLF/LF options (suggested)? MinTTY? No symbolic links (maybe)? SEE PICS.
 6. Install the LTS (Long Term Support - i.e. "stable") version of [NodeJS](https://nodejs.org/).
-7. Install [Yarn](https://yarnpkg.com).
-    - Yarn Installer: https://yarnpkg.com/latest.msi
-    - Install with the [Chocolatey](https://chocolatey.org/) package manager. Follow [these instructions](https://chocolatey.org/install).
+7. Install [Yarn](https://yarnpkg.com). Options:
+    1. Yarn Installer: https://yarnpkg.com/latest.msi
+    2. Install with the [Chocolatey](https://chocolatey.org/) package manager. Follow [these instructions](https://chocolatey.org/install).
         ```console
         choco install yarn
         ```
@@ -22,6 +22,35 @@
 9. Install [Zoom](https://zoom.us/download).
     - You may also want the plugin for Outlook or the Extension for the Chrome browser (scroll down on the Downloads page).
 10. Install [Slack](https://www.slack.com/downloads/windows) (How to stop Slack from auto launching????)
+11. Install [MongoDB Community Edition](https://www.mongodb.com/download-center?jmp=nav#community)
+  - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+  - Choose the Community server Current Stable Release (Currently 3.6.3)
+  - Version: "Windows Server 2008 R2 64-bit and later, with SSL support x64"
+  - Download the installation package (msi) and install
+  - Or, you can [follow the instructions to install with Homebrew](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition-with-homebrew).
+  - > During the installation process you will be given the option to install MongoDB Compass in addition to MongoDB Server.
+  - WARNING: DO NOT INCLUDE COMPASS WITH MONGODB INSTALL: https://youtu.be/l8Ij6hVQsBk
+  - In CMD, create a data directory: `>md \data\db`
+  - ALSO NOTE: After the install, the mongo/mongod commands should work in GitBash BUT there are issues with MinTTY allowing ctrl-c to kill the mongod process.See here: https://github.com/nodejs/node/issues/16103 You can use the `netstat` command to find out which process ID the mongo daemon is running on, and then use the Taskkill command to end the process:
+  ```
+  >netstat -aon
+  >Taskkill / PID {PID number} /F
+  ```
+    - Confirm the directory has been made with `>dir \data`
+  - Add `C:\Program Files\MongoDB\Server\3.6\bin\` directory to PATH environmental variable for easy command line interaction:
+    1. Get the location of the executable: `C:\Program Files\C:\Program Files\MongoDB\Server\3.6\bin`
+    2. You can also get this from the executable file by right-clicking on the mongo/mongod files and selecting "Properties".
+    3. Run the command `SystemPropertiesAdvanced` in CMD
+    4. Click "Environment Variables"
+    5. Select the "Path" item (top half for the user variables)
+    6. Select "Edit"
+    7. Select "New"
+    8. Paste in the new anvironmental variable path: `C:\Program Files\MongoDB\Server\3.6\bin`
+    9. Select OK and exit the Advanced System Properties. Now you can run mongo and mongod in CMD and PowerShell.
+12. Install [Compass](https://www.mongodb.com/download-center?jmp=nav#compass) separately
+  - Select the latest verion of "Community Edition Stable" (currently 1.12.4).
+  - Select "OS X 64-bit (10.10+)"
+  - Download and install.
 
 ### "How do I find out if my Windows computer uses 32-bit or 64-bit?"
 1. Launch the Control Panel

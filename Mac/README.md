@@ -54,7 +54,8 @@
 
 9. Install [Zoom](https://zoom.us/download).
 10. Install [Slack](https://slack.com/downloads/osx).
-11. Install [MongoDB](https://www.mongodb.com/download-center?jmp=nav#community)
+11. Install [MongoDB Community Edition](https://www.mongodb.com/download-center?jmp=nav#community)
+  - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
   - Choose the Current Stable Release (Currently 3.6.3)
   - Select "OS X 10.7+ 64-bit w/SSL x64"
   - Download and install
