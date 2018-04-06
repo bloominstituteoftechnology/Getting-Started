@@ -48,8 +48,7 @@ is pretty good.
 - Heroku
   - `heroku login` - authorize the Heroku CLI with your account
   - `heroku create your-app` - make a new Heroku application (execute within your repository)
-  - `her  
-oku addons:create heroku-postgresql:hobby-dev` - make a PostgreSQL db and configure the `DATABASE_URL` environment variable so Django can connect to it
+  - `heroku addons:create heroku-postgresql:hobby-dev` - make a PostgreSQL db and configure the `DATABASE_URL` environment variable so Django can connect to it
   - `git push heroku master` - deploy to Heroku
 - Git
   - `git fetch upstream` - pull down upstream changes to your local repository
