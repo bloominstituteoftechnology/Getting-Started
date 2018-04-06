@@ -29,7 +29,7 @@
   - Download the installation package (msi) and install
   - Or, you can [follow the instructions to install with Homebrew](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition-with-homebrew).
   - > During the installation process you will be given the option to install MongoDB Compass in addition to MongoDB Server.
-  - WARNING: DO NOT INCLUDE COMPASS WITH MONGODB INSTALL: https://youtu.be/l8Ij6hVQsBk
+  - **WARNING: DO NOT INCLUDE COMPASS WITH MONGODB INSTALL**: https://youtu.be/l8Ij6hVQsBk
   - In CMD, create a data directory: `>md \data\db`
   - ALSO NOTE: After the install, the mongo/mongod commands should work in GitBash BUT there are issues with MinTTY allowing ctrl-c to kill the mongod process.See here: https://github.com/nodejs/node/issues/16103 You can use the `netstat` command to find out which process ID the mongo daemon is running on, and then use the Taskkill command to end the process:
   ```
@@ -51,6 +51,7 @@
   - Select the latest verion of "Community Edition Stable" (currently 1.12.5).
   - Select "Windows 64-bit (7+)"
   - Download and install - it will install automatically.
+  - https://docs.mongodb.com/compass/master/
 
 ### "How do I find out if my Windows computer uses 32-bit or 64-bit?"
 1. Launch the Control Panel
