@@ -48,9 +48,9 @@
     8. Paste in the new anvironmental variable path: `C:\Program Files\MongoDB\Server\3.6\bin`
     9. Select OK and exit the Advanced System Properties. Now you can run mongo and mongod in CMD and PowerShell.
 12. Install [Compass](https://www.mongodb.com/download-center?jmp=nav#compass) separately
-  - Select the latest verion of "Community Edition Stable" (currently 1.12.4).
-  - Select "OS X 64-bit (10.10+)"
-  - Download and install.
+  - Select the latest verion of "Community Edition Stable" (currently 1.12.5).
+  - Select "Windows 64-bit (7+)"
+  - Download and install - it will install automatically.
 
 ### "How do I find out if my Windows computer uses 32-bit or 64-bit?"
 1. Launch the Control Panel
