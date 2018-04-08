@@ -54,6 +54,7 @@ is pretty good.
   - `git fetch upstream` - pull down upstream changes to your local repository
   - `git branch` - see a list of what branches are available
   - `git checkout -b newbranch` - make a new branch (usually do this before committing new changes)
+  - `git checkout otherbranch` - switch to another (existing) branch
   - `git merge otherbranch` - merge another branch into your current branch
 
 ## Resources
