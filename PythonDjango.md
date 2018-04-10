@@ -67,6 +67,7 @@ work well for you.
   - https://github.com/arogozhnikov/python3_with_pleasure
   - https://repl.it/languages/Python3
   - https://marketplace.visualstudio.com/items?itemName=ms-python.python
+  - https://docs.python.org/3.6/library/pdb.html
 - Django
   - https://docs.djangoproject.com/en/2.0/intro/
   - https://djangopackages.org/
