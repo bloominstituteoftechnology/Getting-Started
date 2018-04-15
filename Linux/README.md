@@ -4,8 +4,6 @@
 - These instructions should be applicable to any Debian based Linux system (e.g. Arch, Mint, _et cetera_)
 - Suggestion: pin apps to taskbar (Ubuntu equivalent name?)
 
-#### TODO: Mongo
-
 # Development Environment Set-Up
 <!-- 1. Open the FireFox web browser.
 2. Download the Google [Chrome](https://www.google.com/chrome/) web browser.

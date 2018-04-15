@@ -1,8 +1,6 @@
 # Welcome to Lambda School's Installation Guide for macOS
 - suggestion: Keep apps to Dock.
 
-#### TODO: Mongo, React-Native?
-
 # Development Environment Set-Up
 1. Open the Safari web browser.
 2. Install the Google [Chrome](https://www.google.com/chrome/) web browser.

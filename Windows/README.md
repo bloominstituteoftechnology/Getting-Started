@@ -1,8 +1,6 @@
 # Welcome to Lambda School's Installation Guide for your Windows operating system
 - suggestion: pin apps to taskbar, also include snipping tool for screen grabs.
 
-#### TODO: Mongo
-
 # Development Environment Set-Up
 1. Open the Edge web browser.
 2. Install the Google [Chrome](https://www.google.com/chrome/) web browser.
