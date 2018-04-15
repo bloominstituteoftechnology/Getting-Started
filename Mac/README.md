@@ -50,24 +50,24 @@
   - NOTE: there are also the Additional Tools for Xcode, but I don't think we need these for Lambda School:
   > This package includes audio, graphics, hardware i/o and auxiliary tools formally bundled in Xcode. These tools include: AU Lab, HALLab, OpenGL Driver Monitor, OpenGL Profiler, Pixie, Quartz Composer, Quartz Composer Visualizer, Quartz Debug, Apple Bluetooth Guidelines Validation (Requires macOS Sierra), Bluetooth Explorer (Requires macOS Sierra), HomeKit Accessory Simulator, IO Registry Explorer, Network Link Conditioner.prefpane, PacketLogger, Printer Simulator,  64BitConversion, Clipboard Viewer, CrashReporterPrefs, Dictionary Development Kit, Help Indexer, Modem Scripts and Repeat After Me.
 
-9. Install [Zoom](https://zoom.us/download).
-10. Install [Slack](https://slack.com/downloads/osx).
-11. Install [MongoDB Community Edition](https://www.mongodb.com/download-center?jmp=nav#community)
+9. Install [PostMan](https://www.getpostman.com).
+10. Install [MongoDB Community Edition](https://www.mongodb.com/download-center?jmp=nav#community)
   - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
   - Choose the Current Stable Release (Currently 3.6.3)
   - Select "OS X 10.7+ 64-bit w/SSL x64"
   - Download and install
   - Or, you can [follow the instructions to install with Homebrew](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition-with-homebrew).
-12. Install [Compass](https://www.mongodb.com/download-center?jmp=nav#compass)
+11. Install [Compass](https://www.mongodb.com/download-center?jmp=nav#compass)
   - Select the latest verion of "Community Edition Stable" (currently 1.12.4).
   - Select "OS X 64-bit (10.10+)"
   - Download and install.
+12. Install [Zoom](https://zoom.us/download).
+13. If you haven't already, install [Slack](https://slack.com/downloads/osx).
 
 # other things?
 - [Homebrew](https://brew.sh/)
   - remember to `$  brew missing && brew update && brew cleanup && brew cask cleanup && brew prune && brew upgrade && brew doctor` often. Twice ...or more. The `&&` syntax means if one fails, the others won't run. Maybe this isn't best practice to always be upgrading... maybe don't need cask cleanup? ::thinks:: https://medium.com/@waxzce/keeping-macos-clean-this-is-my-osx-brew-update-cli-command-6c8f12dc1731 & brew cask (doctor cleanup upgrade) https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md
 - telnet (no longer a part of macOS): `brew install telnet`
-- [PostMan](https://www.getpostman.com)
 - [React Native SDK](https://developers.facebook.com/docs/react-native)
 - [Expo XDE](https://expo.io/tools#client) (React-Native) - LOOK FOR NOTE on how to get Expo to reload fast
 - [ngrok](https://ngrok.com/download) Also available through `npm install ngrok` & `brew install ngrok`
@@ -75,18 +75,6 @@
 - [ScreenFlow](https://www.telestream.net/screenflow/overview.htm)
 - [RoboMongo](https://robomongo.org/download): Robo 3T
 - similar type app for mysql? (workbench?) https://dev.mysql.com/downloads/workbench/ (Confirm the set up)
-
-# Join the club!
-- [ ] [Zoom](https://www.zoom.us/signup)
-- [ ] [Slack](https://slack.com/)
-- [ ] [GitHub](https://www.github.com/)
-- [ ] [Google](https://accounts.google.com/SignUp)
-- [ ] [Piazza](https://piazza.com/signup)
-- [ ] [Repl.it](https://repl.it/signup)
-- [ ] [CodePen](https://codepen.io/)
-- [ ] [Trello](https://trello.com/signup)
-- [ ] [LinkedIn](https://www.linkedin.com)
-- [ ] [MLab](https://mlab.com/signup/)
 
 # Speedy macOS tricks
 - `⌘ + spacebar` for the Spotlight Search.

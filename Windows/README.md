@@ -17,10 +17,8 @@
         choco install yarn
         ```
 8. Install a Text Editor ([Atom](https://atom.io/), [VSC](https://code.visualstudio.com/download), vim (comes w/git bash iirc), Sublime(nagware), Brackets, et cetera.)
-9. Install [Zoom](https://zoom.us/download).
-    - You may also want the plugin for Outlook or the Extension for the Chrome browser (scroll down on the Downloads page).
-10. Install [Slack](https://www.slack.com/downloads/windows) (How to stop Slack from auto launching????)
-11. Install [MongoDB Community Edition](https://www.mongodb.com/download-center?jmp=nav#community)
+9. Install [PostMan](https://www.getpostman.com).
+10. Install [MongoDB Community Edition](https://www.mongodb.com/download-center?jmp=nav#community)
   - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
   - Choose the Community server Current Stable Release (Currently 3.6.3)
   - Version: "Windows Server 2008 R2 64-bit and later, with SSL support x64"
@@ -45,11 +43,14 @@
     7. Select "New"
     8. Paste in the new anvironmental variable path: `C:\Program Files\MongoDB\Server\3.6\bin`
     9. Select OK and exit the Advanced System Properties. Now you can run mongo and mongod in CMD and PowerShell.
-12. Install [Compass](https://www.mongodb.com/download-center?jmp=nav#compass) separately
+11. Install [Compass](https://www.mongodb.com/download-center?jmp=nav#compass) separately
   - Select the latest verion of "Community Edition Stable" (currently 1.12.5).
   - Select "Windows 64-bit (7+)"
   - Download and install - it will install automatically.
   - https://docs.mongodb.com/compass/master/
+12. Install [Zoom](https://zoom.us/download).
+    - You may also want the plugin for Outlook or the Extension for the Chrome browser (scroll down on the Downloads page).
+13. If you haven't already, install [Slack](https://www.slack.com/downloads/windows)
 
 ### "How do I find out if my Windows computer uses 32-bit or 64-bit?"
 1. Launch the Control Panel
@@ -61,23 +62,12 @@
 - Package manager like [Chocolatey](https://chocolatey.org/)?
 - `telnet` (afaik, not a part of win10 release) https://social.technet.microsoft.com/wiki/contents/articles/38433.windows-10-enabling-telnet-client.aspx see also: http://www.sysprobs.com/install-and-enable-telnet-in-windows-8-use-as-telnet-client
 - `curl` is asking for the IE engine? https://youtu.be/qlTVMuONazs. Seems to be part of GitBash.
-- PostMan
-- Expo XDE (React-Native)
-- `ngrok`
-- Firefox & Opera?
-- ScreenFlow
+- [React Native SDK](https://developers.facebook.com/docs/react-native)
+- [Expo XDE](https://expo.io/tools#client) (React-Native) - LOOK FOR NOTE on how to get Expo to reload fast
+- [ngrok](https://ngrok.com/download) Also available through `npm install ngrok` & `brew install ngrok`
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/) & [Opera](https://www.opera.com/)? Opera has "free" VPN :\
+- [ScreenFlow](https://www.telestream.net/screenflow/overview.htm)
 - RoboMongo type app for mysql? (workbench?)
-
-# Join the club!
-- [ ] [Slack](https://slack.com/)
-- [ ] [GitHub](https://www.github.com/)
-- [ ] [Google](https://accounts.google.com/SignUp)
-- [ ] [Piazza](https://piazza.com/signup)
-- [ ] [Repl.it](https://repl.it/signup)
-- [ ] [CodePen](https://codepen.io/)
-- [ ] [Trello](https://trello.com/signup)
-- [ ] [LinkedIn](https://www.linkedin.com)
-- [ ] [MLab](https://mlab.com/signup/)
 
 # Speedy Win10 tricks
 - Cortana?
