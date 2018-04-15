@@ -19,7 +19,7 @@
          v8.11.1
   $  npm -v
          5.6.0
-    ```
+  ```
 7. Install a Text Editor:
   - [Atom](https://atom.io/)
   - [Visual Studio Code](https://code.visualstudio.com/download)
