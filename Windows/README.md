@@ -80,7 +80,9 @@
 - [ ] [MLab](https://mlab.com/signup/)
 
 # Speedy Win10 tricks
-- Cortana
+- Cortana?
+  - Maybe you love it.
+  - If you don't, reclaim that task bar real estate and give your processor a break: https://www.pcworld.com/article/2949759/windows/killing-cortana-how-to-disable-windows-10s-info-hungry-digital-assistant.html
 - Digital color meter: https://graphicdesign.stackexchange.com/q/76383
 
 # Chrome magic
