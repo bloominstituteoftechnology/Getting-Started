@@ -5,13 +5,14 @@
 - TODO: Linux
 
 ### Minimum hardware requirements - accurate?
-- 2GHz processor (?)
-- 8GB RAM
-- 20GB of hard drive space, in addition to a minimum of 10% free space on your internal hard-disk or solid-state drive.
+- 2GHz processor
+- 4GB RAM (8GB is preferable)
+- 20GB of hard drive space
+  - NOTE: this is in addition to a minimum of 10% free space on your internal hard-disk or solid-state drive.
   - For example, if you have a 500GB capacity drive, then you will want at the very minimum 50GB of unallocated (free) storage space for optimal system performance.
-  - In addition to this free space, you will need 20GB of storage space for your work and tools.
-  - In this scenario, at the very minimum you would need 70GB of free space on a 500GB drive.
-  - If,however,  your internal drive is already within 20% of capacity (i.e. 400GB used on a 500GB capacity drive), then we recommend that you archive as much data as you can to free up some drive space.
+  - In addition to this free space, you will need 20GB of storage space for your work at Lambda School and the tools you'll need.
+  - In this scenario, with a 500GB drive, at the very minimum you would need 70GB of free space on a 500GB drive.
+  - If, however, your internal drive is already within 20% of capacity (i.e. 400GB used on a 500GB capacity drive), then we recommend that you archive as much data as you can to free up some drive space.
 
 ### Minimum storage requirements for Lambda School projects and requisite tools: ~20GB
 | Tool | Storage | Cost |
