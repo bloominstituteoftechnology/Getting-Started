@@ -1,3 +1,11 @@
+# macOS system resource file
 .DS_Store
+
+# NodeJS modules
 node_modules
+
+# VIM resource files
 *.sw[a-p]
+
+# VSC resource files
+.vs
