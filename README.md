@@ -2,8 +2,7 @@
 
 ### NOTES
 - https://lambdaschoolstudents.slack.com/archives/G8W8LT9SM/p1518711817000364
-- $PATH walkthrough?
-- TODO: MongoDB install (Compass Community Edition GUI)
+- TODO: Linux
 
 ### Minimum hardware requirements - accurate?
 - 2GHz processor (?)
