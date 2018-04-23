@@ -67,6 +67,7 @@ work well for you.
   - https://github.com/arogozhnikov/python3_with_pleasure
   - https://repl.it/languages/Python3
   - https://marketplace.visualstudio.com/items?itemName=ms-python.python
+  - https://code.visualstudio.com/docs/python/environments
   - https://docs.python.org/3.6/library/pdb.html
   - https://docs.pipenv.org/
   - https://github.com/pypa/pipfile
