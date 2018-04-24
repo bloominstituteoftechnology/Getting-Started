@@ -86,6 +86,7 @@ work well for you.
   - https://github.com/graphql-python/graphene-django
   - https://gearheart.io/blog/using-graphql-with-django/
   - https://github.com/pennersr/django-allauth
+  - https://django-testing-docs.readthedocs.io/en/latest/views.html
   - http://www.django-rest-framework.org/
   - https://hackernoon.com/creating-websites-using-react-and-django-rest-framework-b14c066087c7
   - https://stackoverflow.com/questions/41867055/how-to-get-django-and-reactjs-to-work-together
