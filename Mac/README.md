@@ -201,3 +201,12 @@ what
 xml2man
 yacc
 ```
+
+per Beej's [Getting Your C Compiler Installed](https://github.com/LambdaSchool/CS-Wiki/wiki/Getting-Your-C-Compiler-Installed#macos):
+### Option A: Command Line Tools
+
+- Open a Terminal.
+- Run `xcode-select --install`.
+- When prompted to install the developer command line tools, click `Install`.
+
+:octocat:
