@@ -103,7 +103,7 @@
 
 # Text Editor efficiency
 - Global project search: ctrl-shift-f VSC, cmd+shift+f Atom
-- Select matching pattern: cmd/ctrl+D Atom/VSC
+- Select matching pattern: `cmd`+`D` Atom and VSC
 
 # Command Line Interface Tools Installed with Xcode CLI
 - As far as I know, you do not _need_ the XCode.app, just the CLI Tools.
