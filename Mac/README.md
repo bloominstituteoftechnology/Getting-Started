@@ -105,6 +105,16 @@
 # Text Editor efficiency
 - Global project search: ctrl-shift-f VSC, cmd+shift+f Atom
 - Select matching pattern: `cmd`+`D` Atom and VSC
+- Setting up Folder Action to open a folder in Atom:
+  - Open in Atom
+  - Open Automator
+  - Create a new Service
+  - Set “Service receives selected” to files or folders in any application
+  - Add a Run Shell Script action
+  - Set the script action to /usr/local/bin/atom -n "$@"
+  - Set “Pass input” to as arguments
+  - Save as Open in Atom
+  - additional info: https://gist.github.com/idleberg/874790e8e3c8b1419e4439d0a48d2aa5
 
 # Command Line Interface Tools Installed with Xcode CLI
 - As far as I know, you do not _need_ the XCode.app, just the CLI Tools.
