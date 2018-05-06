@@ -107,7 +107,6 @@
 - Global project search: ctrl-shift-f VSC, cmd+shift+f Atom
 - Select matching pattern: `cmd`+`D` Atom and VSC
 - Setting up Folder Action to open a folder in Atom:
-  - Open in Atom
   - Open Automator
   - Create a new Service
   - Set “Service receives selected” to files or folders in any application
