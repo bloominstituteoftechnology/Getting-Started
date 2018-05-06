@@ -93,6 +93,7 @@
       No new software available.
   ```
 - Enable Root User: launch the Directory Utility app. Click the lock icon to make changes. From the Edit menu, select "Enable Root User"
+- Enable QuickTime to record system sounds with Screen Recordings: https://github.com/mattingalls/Soundflower/releases/
 
 # Chrome magic
 - React Developer Tools plugin. not sure about this url: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
