@@ -65,6 +65,8 @@ work well for you.
   - http://docs.python-guide.org/en/latest/intro/learning/
   - https://docs.python.org/3/
   - https://github.com/arogozhnikov/python3_with_pleasure
+  - https://www.python.org/dev/peps/pep-0008/
+  - https://google.github.io/styleguide/pyguide.html
   - https://repl.it/languages/Python3
   - https://marketplace.visualstudio.com/items?itemName=ms-python.python
   - https://code.visualstudio.com/docs/python/environments
