@@ -74,11 +74,12 @@
   - Maybe you love it.
   - If you don't, reclaim that task bar real estate and give your processor a break: https://www.pcworld.com/article/2949759/windows/killing-cortana-how-to-disable-windows-10s-info-hungry-digital-assistant.html
 - Digital color meter: https://graphicdesign.stackexchange.com/q/76383
+- the CMD equivalent for `which` is `where`. In Powershell, `where` is an alias for `Where-Object` but you can access the “where” command in PS with `where.exe` or you can use `get-command` in Powershell.
 
 # Chrome magic
 - React Developer Tools plugin: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
 - Redux Developer Tools plugin: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
-- One Tab plug-in to minimize open tabs into a list of URLs: https://www.one-tab.com/
+- One Tab plug-in to minimize open tabs into a list of URLs: https://www.one-tab.com/the CMD equivalent for `which` is `where` and in Powershell, `where` is an alias for `Where-Object` but you can access the “where” command in PS with `where.exe` or you can use `get-command`
 - HTTPS everywhere from EFF: https://www.eff.org/https-everywhere
 - Privacy Badger from EFF: https://www.eff.org/privacybadger
 - `ctrl + l` focuses to the Location Bar.
