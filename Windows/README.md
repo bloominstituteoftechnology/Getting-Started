@@ -26,12 +26,13 @@
   - > During the installation process you will be given the option to install MongoDB Compass in addition to MongoDB Server.
   - **WARNING: DO NOT INCLUDE COMPASS WITH MONGODB INSTALL**: https://youtu.be/l8Ij6hVQsBk
   - In CMD, create a data directory: `>md \data\db`
+      - Confirm the directory has been made with `>dir \data`
   - ALSO NOTE: After the install, the mongo/mongod commands should work in GitBash BUT there are issues with MinTTY allowing ctrl-c to kill the mongod process.See here: https://github.com/nodejs/node/issues/16103 You can use the `netstat` command to find out which process ID the mongo daemon is running on, and then use the Taskkill command to end the process:
   ```
   >netstat -aon
   >Taskkill / PID {PID number} /F
   ```
-    - Confirm the directory has been made with `>dir \data`
+
   - Add `C:\Program Files\MongoDB\Server\3.6\bin\` directory to PATH environmental variable for easy command line interaction:
     1. Get the location of the executable: `C:\Program Files\C:\Program Files\MongoDB\Server\3.6\bin`
     2. You can also get this from the executable file by right-clicking on the mongo/mongod files and selecting "Properties".
