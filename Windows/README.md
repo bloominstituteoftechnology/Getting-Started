@@ -23,7 +23,6 @@
   - Choose the Community server Current Stable Release (Currently 3.6.3)
   - Version: "Windows Server 2008 R2 64-bit and later, with SSL support x64"
   - Download the installation package (msi) and install
-  - Or, you can [follow the instructions to install with Homebrew](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition-with-homebrew).
   - > During the installation process you will be given the option to install MongoDB Compass in addition to MongoDB Server.
   - **WARNING: DO NOT INCLUDE COMPASS WITH MONGODB INSTALL**: https://youtu.be/l8Ij6hVQsBk
   - In CMD, create a data directory: `>md \data\db`
