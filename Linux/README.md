@@ -5,7 +5,7 @@
 - Suggestion: pin apps to taskbar (Ubuntu equivalent name?)
 
 # Development Environment Set-Up
-<!-- 1. Open the FireFox web browser.
+1. Open the FireFox web browser.
 2. Download the Google [Chrome](https://www.google.com/chrome/) web browser.
 3. Close Firefox.
 4. Open Chrome.
