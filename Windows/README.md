@@ -59,7 +59,7 @@
 4. Look at the "System Type"
 
 # other things?
-- Package manager like [Chocolatey](https://chocolatey.org/)?
+- Package manager? Use MSI (MicroSoft Installer). Only use package managers like [Chocolatey](https://chocolatey.org/) if you are already VERY comfortable with them.
 - `telnet` (afaik, not a part of win10 release) https://social.technet.microsoft.com/wiki/contents/articles/38433.windows-10-enabling-telnet-client.aspx see also: http://www.sysprobs.com/install-and-enable-telnet-in-windows-8-use-as-telnet-client
 - `curl` is asking for the IE engine? https://youtu.be/qlTVMuONazs. Seems to be part of GitBash.
 - [React Native SDK](https://developers.facebook.com/docs/react-native)
