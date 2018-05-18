@@ -117,7 +117,7 @@
   - additional info: https://gist.github.com/idleberg/874790e8e3c8b1419e4439d0a48d2aa5
 
 # Command Line Interface Tools Installed with Xcode CLI
-- As far as I know, you do not _need_ the XCode.app, just the CLI Tools.
+- You do not _need_ the XCode.app, just the CLI Tools.
 - In particular, you will be using `gcc` and `make`.
 - With their installation, you will receive a host of developer tools:
 ```
