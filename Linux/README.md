@@ -50,7 +50,7 @@ $ lscpu
   ```console
   $ sudo mv ~/Downloads/Postman  /opt/Postman
   ```
-  - Create a symbolic link from the application file to your Path
+  - Create a symbolic link from the application file to a directory in your $PATH
   ```console
   $ sudo ln -s /opt/Postman/Postman /usr/bin/postman
   ```
@@ -62,6 +62,9 @@ $ lscpu
   - Move the extracted MongoDB folder from the Downloads folder to the /opt Directory
   ```console
   $ sudo mv ~/Downloads/mongodb-linux-x86_64-ubuntu1604-3.6.4 /opt/MongoDB
+  ```
+  - Create a symbolic link from the application file to a directory in your $PATH
+  ```
   $ sudo ln -s /opt/MongoDB/bin/mongod /usr/bin/mongod
   $ sudo ln -s /opt/MongoDB/bin/mongo /usr/bin/mongo
   ```
