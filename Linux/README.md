@@ -56,7 +56,7 @@ $ lscpu
   ```
   - if you get a Gtk-Message: "Failed to load module "canberra-gtk-module" you can `$ sudo apt install libcanberra-gtk-module`
 10. Install [MongoDB](https://docs.mongodb.com/manual/administration/install-on-linux/)
-  - `$ sudo mkdir -m 777 -p /data/db`
+  - Make a database directory: `$ sudo mkdir -m 777 -p /data/db`
   - Select the latest version of the Community server for Ubuntu from https://www.mongodb.com/download-center?jmp=nav#community
   - Extract MongoDB from the compressed file, e.g. mongodb-linux-x86_64-ubuntu1604-3.6.4.tgz
   - Move the extracted MongoDB folder from the Downloads folder to the /opt Directory
