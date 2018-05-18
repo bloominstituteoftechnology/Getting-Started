@@ -1,6 +1,12 @@
 # Welcome to Lambda School's Installation Guide for your Windows operating system
 - suggestion: pin apps to taskbar, also include snipping tool for screen grabs.
 
+### "How do I find out if my Windows computer uses 32-bit or 64-bit?"
+1. Launch the Control Panel
+2. Select System & Security
+3. Select System
+4. Look at the "System Type"
+
 # Development Environment Set-Up
 1. Open the Edge web browser.
 2. Install the Google [Chrome](https://www.google.com/chrome/) web browser.
@@ -51,12 +57,6 @@
 12. Install [Zoom](https://zoom.us/download).
     - You may also want the plugin for Outlook or the Extension for the Chrome browser (scroll down on the Downloads page).
 13. If you haven't already, install [Slack](https://www.slack.com/downloads/windows)
-
-### "How do I find out if my Windows computer uses 32-bit or 64-bit?"
-1. Launch the Control Panel
-2. Select System & Security
-3. Select System
-4. Look at the "System Type"
 
 # other things?
 - Package manager? Use MSI (MicroSoft Installer). Only use package managers like [Chocolatey](https://chocolatey.org/) if you are already VERY comfortable with them.
