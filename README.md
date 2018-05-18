@@ -144,7 +144,6 @@ $  npm list -g --depth=0
 - [ ] [Slack](https://slack.com/)
 - [ ] [GitHub](https://www.github.com/)
 - [ ] [Google](https://accounts.google.com/SignUp)
-- [ ] [Piazza](https://piazza.com/signup)
 - [ ] [Repl.it](https://repl.it/signup)
 - [ ] [CodePen](https://codepen.io/)
 - [ ] [Trello](https://trello.com/signup)
