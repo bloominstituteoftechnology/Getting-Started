@@ -66,7 +66,7 @@ $  npm -v
 Now use the NodeJS Package Manager (`npm`) to install some additional NodeJS packages. With the following command, the `i` is short for <b>"i"</b>nstall (you could spell out `install` but you can save six whole keystrokes!) The `-g` flag let's the `npm` command know to install these packages <b>"g"</b>lobally on your system.
 
 ```console
-$ npm i -g create-react-app less nodemon yarn
+$ npm i -g less less-watch-compiler create-react-app nodemon yarn
 ```
 
 If you get warnings and errors about permissions, you may need to invoke this command by prepending it with `sudo` - the <b>"s"</b>uper <b>"u"</b>ser <b>"do"</b> command. This will allow the command to be run with more security privileges. You will be prompted for your password.
