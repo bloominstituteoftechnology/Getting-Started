@@ -69,6 +69,19 @@ $ lscpu
 11. Install [Compass](https://www.mongodb.com/download-center?jmp=nav#compass)
 12. Install [Zoom](https://zoom.us/download)
 13. Install [Slack](https://www.slack.com/downloads/windows)
+<!-- 14. `$ yarn global add create-react-app less less-watch-compiler nodemon`
+```console
+$ yarn global list
+  yarn global v1.6.0
+  info "create-react-app@1.5.2" has binaries:
+     - create-react-app
+  info "less@3.0.4" has binaries:
+     - lessc
+  info "less-watch-compiler@1.11.3" has binaries:
+     - less-watch-compiler
+  info "nodemon@1.17.4" has binaries:
+     - nodemon
+``` -->
 
 # other things?
 
