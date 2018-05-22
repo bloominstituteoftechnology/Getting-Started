@@ -33,7 +33,7 @@
   - **WARNING: DO NOT INCLUDE COMPASS WITH MONGODB INSTALL**: https://youtu.be/l8Ij6hVQsBk
   - In CMD, create a data directory: `>md \data\db`
       - Confirm the directory has been made with `>dir \data`
-  - ALSO NOTE: After the install, the `mongo` and `mongod` commands should work in GitBash BUT there are issues with MinTTY allowing ctrl-c to kill the mongod process. See here: https://github.com/nodejs/node/issues/16103 You can use the `netstat` command to find out which process ID the mongo daemon is running on, and then use the Taskkill command to end the process:
+  - ALSO NOTE: After the install, the `mongo` and `mongod` commands should work in GitBash BUT there are issues with MinTTY allowing ctrl-c to kill the mongod process. See here: https://github.com/nodejs/node/issues/16103 You can use the `netstat` command to find out which process ID the mongo daemon is running on, and then from CMD or PowerShell use the `Taskkill` command to end the process:
   ```
   >netstat -aon
   >Taskkill /PID {PID number} /F
