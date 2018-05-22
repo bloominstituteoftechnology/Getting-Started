@@ -36,7 +36,7 @@
   - ALSO NOTE: After the install, the `mongo` and `mongod` commands should work in GitBash BUT there are issues with MinTTY allowing ctrl-c to kill the mongod process. See here: https://github.com/nodejs/node/issues/16103 You can use the `netstat` command to find out which process ID the mongo daemon is running on, and then use the Taskkill command to end the process:
   ```
   >netstat -aon
-  >Taskkill / PID {PID number} /F
+  >Taskkill /PID {PID number} /F
   ```
 
   - Add `C:\Program Files\MongoDB\Server\3.6\bin\` directory to PATH environmental variable for easy command line interaction:
