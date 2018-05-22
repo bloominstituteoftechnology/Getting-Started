@@ -7,6 +7,12 @@
 3. Select System
 4. Look at the "System Type"
 
+Or, try these commands in CMD or Powershell:
+```console
+> wmic os get caption
+> wmic os get osarchitecture
+```
+
 # Development Environment Set-Up
 1. Open the Edge web browser.
 2. Install the Google [Chrome](https://www.google.com/chrome/) web browser.
@@ -25,7 +31,6 @@
 8. Install a Text Editor ([Atom](https://atom.io/), [VSC](https://code.visualstudio.com/download), vim (comes w/git bash iirc), Sublime(nagware), Brackets, et cetera.)
 9. Install [PostMan](https://www.getpostman.com).
 10. Install [MongoDB Community Server](https://www.mongodb.com/download-center?jmp=nav#community)
-  - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
   - Select the "Community Server" tab
   - Select Windows for the Current Stable Release (Currently 3.6.4)
   - Version: "Windows Server 2008 R2 64-bit and later, with SSL support x64"
@@ -50,6 +55,7 @@
     7. Select "New"
     8. Paste in the new environmental variable path: `C:\Program Files\MongoDB\Server\3.6\bin`
     9. Select OK and exit the Advanced System Properties. Now you can run mongo and mongod in CMD and PowerShell.
+  - Detailed installation guide: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
 11. Install [Compass](https://www.mongodb.com/download-center?jmp=nav#compass) separately
   - Select the latest verion of "Community Edition Stable" (currently 1.12.5).
   - Select "Windows 64-bit (7+)"
