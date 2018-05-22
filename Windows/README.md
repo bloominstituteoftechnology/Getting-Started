@@ -18,10 +18,10 @@
 6. Install the LTS (Long Term Support - i.e. "stable") version of [NodeJS](https://nodejs.org/).
 7. Install [Yarn](https://yarnpkg.com). Options:
     1. Yarn Installer: https://yarnpkg.com/latest.msi
-    2. Install with the [Chocolatey](https://chocolatey.org/) package manager. Follow [these instructions](https://chocolatey.org/install).
-        ```console
-        choco install yarn
-        ```
+    2. If you are already very comfortable and confident with the package manager, "Chocolatey" you can install Yarn with the [Chocolatey](https://chocolatey.org/) package manager. Follow [these instructions](https://chocolatey.org/install).
+    ```console
+    choco install yarn
+    ```
 8. Install a Text Editor ([Atom](https://atom.io/), [VSC](https://code.visualstudio.com/download), vim (comes w/git bash iirc), Sublime(nagware), Brackets, et cetera.)
 9. Install [PostMan](https://www.getpostman.com).
 10. Install [MongoDB Community Edition](https://www.mongodb.com/download-center?jmp=nav#community)
@@ -33,7 +33,7 @@
   - **WARNING: DO NOT INCLUDE COMPASS WITH MONGODB INSTALL**: https://youtu.be/l8Ij6hVQsBk
   - In CMD, create a data directory: `>md \data\db`
       - Confirm the directory has been made with `>dir \data`
-  - ALSO NOTE: After the install, the mongo/mongod commands should work in GitBash BUT there are issues with MinTTY allowing ctrl-c to kill the mongod process. See here: https://github.com/nodejs/node/issues/16103 You can use the `netstat` command to find out which process ID the mongo daemon is running on, and then use the Taskkill command to end the process:
+  - ALSO NOTE: After the install, the `mongo` and `mongod` commands should work in GitBash BUT there are issues with MinTTY allowing ctrl-c to kill the mongod process. See here: https://github.com/nodejs/node/issues/16103 You can use the `netstat` command to find out which process ID the mongo daemon is running on, and then use the Taskkill command to end the process:
   ```
   >netstat -aon
   >Taskkill / PID {PID number} /F
@@ -41,13 +41,13 @@
 
   - Add `C:\Program Files\MongoDB\Server\3.6\bin\` directory to PATH environmental variable for easy command line interaction:
     1. Get the location of the executable: `C:\Program Files\C:\Program Files\MongoDB\Server\3.6\bin`
-    2. You can also get this from the executable file by right-clicking on the mongo/mongod files and selecting "Properties".
+    2. You can also get this from the executable file by right-clicking on the "mongo" and "mongod" files and selecting "Properties".
     3. Run the command `SystemPropertiesAdvanced` in CMD
     4. Click "Environment Variables"
     5. Select the "Path" item (top half for the user variables)
     6. Select "Edit"
     7. Select "New"
-    8. Paste in the new anvironmental variable path: `C:\Program Files\MongoDB\Server\3.6\bin`
+    8. Paste in the new environmental variable path: `C:\Program Files\MongoDB\Server\3.6\bin`
     9. Select OK and exit the Advanced System Properties. Now you can run mongo and mongod in CMD and PowerShell.
 11. Install [Compass](https://www.mongodb.com/download-center?jmp=nav#compass) separately
   - Select the latest verion of "Community Edition Stable" (currently 1.12.5).
