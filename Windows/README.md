@@ -26,14 +26,14 @@
 9. Install [PostMan](https://www.getpostman.com).
 10. Install [MongoDB Community Edition](https://www.mongodb.com/download-center?jmp=nav#community)
   - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
-  - Choose the Community server Current Stable Release (Currently 3.6.3)
+  - Choose the Community server Current Stable Release (Currently 3.6.4)
   - Version: "Windows Server 2008 R2 64-bit and later, with SSL support x64"
   - Download the installation package (msi) and install
   - > During the installation process you will be given the option to install MongoDB Compass in addition to MongoDB Server.
   - **WARNING: DO NOT INCLUDE COMPASS WITH MONGODB INSTALL**: https://youtu.be/l8Ij6hVQsBk
   - In CMD, create a data directory: `>md \data\db`
       - Confirm the directory has been made with `>dir \data`
-  - ALSO NOTE: After the install, the mongo/mongod commands should work in GitBash BUT there are issues with MinTTY allowing ctrl-c to kill the mongod process.See here: https://github.com/nodejs/node/issues/16103 You can use the `netstat` command to find out which process ID the mongo daemon is running on, and then use the Taskkill command to end the process:
+  - ALSO NOTE: After the install, the mongo/mongod commands should work in GitBash BUT there are issues with MinTTY allowing ctrl-c to kill the mongod process. See here: https://github.com/nodejs/node/issues/16103 You can use the `netstat` command to find out which process ID the mongo daemon is running on, and then use the Taskkill command to end the process:
   ```
   >netstat -aon
   >Taskkill / PID {PID number} /F
