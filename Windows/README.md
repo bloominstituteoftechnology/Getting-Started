@@ -24,9 +24,10 @@
     ```
 8. Install a Text Editor ([Atom](https://atom.io/), [VSC](https://code.visualstudio.com/download), vim (comes w/git bash iirc), Sublime(nagware), Brackets, et cetera.)
 9. Install [PostMan](https://www.getpostman.com).
-10. Install [MongoDB Community Edition](https://www.mongodb.com/download-center?jmp=nav#community)
+10. Install [MongoDB Community Server](https://www.mongodb.com/download-center?jmp=nav#community)
   - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
-  - Choose the Community server Current Stable Release (Currently 3.6.4)
+  - Select the "Community Server" tab
+  - Select Windows for the Current Stable Release (Currently 3.6.4)
   - Version: "Windows Server 2008 R2 64-bit and later, with SSL support x64"
   - Download the installation package (msi) and install
   - > During the installation process you will be given the option to install MongoDB Compass in addition to MongoDB Server.
@@ -55,8 +56,9 @@
   - Download and install - it will install automatically.
   - https://docs.mongodb.com/compass/master/
 12. Install [Zoom](https://zoom.us/download).
-    - You may also want the plugin for Outlook or the Extension for the Chrome browser (scroll down on the Downloads page).
+  - You may also want the plugin for Outlook or the Extension for the Chrome browser (scroll down on the Downloads page).
 13. If you haven't already, install [Slack](https://www.slack.com/downloads/windows)
+  - You can disable Slack from automatically starting up through the Task Manager
 
 # other things?
 - Package manager? Use MSI (MicroSoft Installer). Only use package managers like [Chocolatey](https://chocolatey.org/) if you are already VERY comfortable with them.
@@ -75,6 +77,7 @@
   - If you don't, reclaim that task bar real estate and give your processor a break: https://www.pcworld.com/article/2949759/windows/killing-cortana-how-to-disable-windows-10s-info-hungry-digital-assistant.html
 - Digital color meter: https://graphicdesign.stackexchange.com/q/76383
 - the CMD equivalent for `which` is `where`. In Powershell, `where` is an alias for `Where-Object` but you can access the “where” command in PS with `where.exe` or you can use `get-command` in Powershell.
+- Powershell: use the `ii` command to open `i`nvoke `i`tem, e.g. `> ii .` will open the current directory in the Explorer.
 
 # Chrome magic
 - React Developer Tools plugin: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
